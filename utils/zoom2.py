@@ -18,12 +18,12 @@ class ZoomClient:
         response = requests.post("https://zoom.us/oauth/token", data=data)
         return response.json()["access_token"]
 
-    def get_recordings(self, username):
+    def get_recordings(self):
         headers = {
             "Authorization": f"Bearer {self.access_token}"
         }
 
-        url = f"https://api.zoom.us/v2/users/{username}/recordings"
+        url = f"https://api.zoom.us/v2/users/me/recordings"
 
         return requests.get(url, headers=headers).json()
     
@@ -34,10 +34,15 @@ class ZoomClient:
         url = f"https://api.zoom.us/v2/meetings/{meeting_id}/recordings"
 
         r = requests.get(url, headers=headers).json()
-        r_dict=[i['download_url'] for i in r['recording_files'] if i['recording_type'] == 'audio_transcript'][0]
-        #url = [i['download_url'] for i in r['recording_files'] if i['recording_type'] == 'audio_only'][0]
-        #url_trans = [i['download_url'] for i in r['recording_files'] if i['recording_type']== 'audio_transcript'][0]
-        #download_link = f'{url}?access_token={self.access_token}&playback_access_token={r["password"]}'
-        download_link_trans = f'{r_dict}?access_token={self.access_token}&playback_access_token={r["password"]}'
-        return download_link_trans
-    
+        
+        url = [i['download_url'] for i in r['recording_files'] if i['recording_type'] == 'audio_only'][0]
+        download_link = f'{url}?access_token={self.access_token}&playback_access_token={r["password"]}'
+        return download_link
+
+    def single_id(self,meeting_id:int):
+        headers = {
+            "Authorization": f"Bearer {self.access_token}"
+        }
+        url = f"https://api.zoom.us/v2/meetings/{meeting_id}/recordings"
+        r = requests.get(url, headers=headers).json()
+        return r
