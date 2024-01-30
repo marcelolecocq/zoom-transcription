@@ -1,4 +1,4 @@
 assemblyai==0.17.0
 python-dotenv==1.0.0
 requests==2.31.0
-pyzoom=1.0.5
+pyzoom==1.0.5
