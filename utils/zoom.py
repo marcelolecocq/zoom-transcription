@@ -24,7 +24,7 @@ class ZoomClient:
         }
 
         url = f"https://api.zoom.us/v2/users/{username}/recordings"
-
+ 
         return requests.get(url, headers=headers).json()
     
     def get_download_url(self, meeting_id):

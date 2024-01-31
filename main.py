@@ -5,6 +5,7 @@ import assemblyai as aai
 import webvtt
 import requests
 import urllib.request
+import numpy as np
 
 import pandas as pd
 from tabulate import tabulate
@@ -23,7 +24,7 @@ transcriber = aai.Transcriber()
 
 client = ZoomClient(account_id=ZOOM_ACCOUNT_ID, client_id=ZOOM_CLIENT_ID, client_secret=ZOOM_CLIENT_SECRET)
 
-recs = client.get_recordings('eben@io-sphere.io')
+recs = client.get_recordings('steph@io-sphere.io')
 #print(recs['meetings'][0]['id'])
 #print(recs['meetings'][0]['recording_files'][2])
 if recs['meetings']:  
@@ -114,10 +115,14 @@ for caption in webvtt.read(cleanedVTT):
 df = pd.DataFrame(list(zip(start,end,text,speaker)), columns = ['StartTime', 'EndTime',"Text","Speaker"])
 listx=df['Speaker'].str.split('>', n=1, expand=True)
 df["Speaker"]=listx[0]
-df["Speaker"]=df["Speaker"].str.replace("<v ","")
-t1 = pd.to_datetime(df['StartTime'])
-t2 = pd.to_datetime(df['EndTime'])
-df['time_delta'] = pd.Timedelta(t2-t1).seconds / 3600.0
-df.tail(60)
+df["Speaker"]=(df["Speaker"].str.replace("<v ",""))
+df["Speaker"]=df["Speaker"].str.split(":").str[0]
+df["Text"]=df["Text"].str.split(":").str[1]
+df['StartTime'] = pd.to_datetime(df['StartTime'])
+df['EndTime'] = pd.to_datetime(df['EndTime'])
+df['time_delta'] = (df['EndTime']-df['StartTime'])/ np.timedelta64(1, 's')
+print(f"total time spoken =  '{df['time_delta'].sum()}'")
+
+df.tail(10)
 #print(speaker)
 # #print(tabulate(df.head(), headers='keys', tablefmt='psql'))

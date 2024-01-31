@@ -1,0 +1,42 @@
+WEBVTT
+
+1
+000:00:03.230 --> 000:00:08.650
+Marcelo Lecocq: Now, what we're gonna try to do now is to record a second video
+
+2
+000:00:10.180 --> 000:00:11.949
+to be able to
+
+3
+000:00:11.960 --> 000:00:28.250
+Marcelo Lecocq: imported or read it from python using the Api calls we've designed. And there is another video in place much shorter. What we will try to do with this is to read the second a second file
+
+4
+000:00:28.650 --> 000:00:41.699
+Marcelo Lecocq: that's going to be living in the zoom cloud, as we'll record meetings. Now, it's important to understand. Also, when we run out of space we won't be able to use. This might have to create
+
+5
+000:00:41.950 --> 000:00:44.800
+Marcelo Lecocq: a different mechanism of read this
+
+6
+000:00:44.950 --> 000:00:47.440
+Marcelo Lecocq: exported recordings from
+
+7
+000:00:47.530 --> 000:00:50.710
+Marcelo Lecocq: Go Go Cloud or Google Drive.
+
+8
+000:00:51.210 --> 000:00:56.360
+Marcelo Lecocq: So this only works if the recording leafs inside
+
+9
+000:00:57.130 --> 000:01:04.229
+Marcelo Lecocq: or the VTB. Dt file, which is the transcription recorded, lives inside the Sun cloud.
+
+10
+000:01:04.769 --> 000:01:08.729
+Marcelo Lecocq: So I'm gonna stop the recording now and see if I can access this video.
+
