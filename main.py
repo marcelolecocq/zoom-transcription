@@ -1,4 +1,5 @@
 import os
+import json
 
 from dotenv import load_dotenv
 import assemblyai as aai
@@ -25,6 +26,7 @@ transcriber = aai.Transcriber()
 client = ZoomClient(account_id=ZOOM_ACCOUNT_ID, client_id=ZOOM_CLIENT_ID, client_secret=ZOOM_CLIENT_SECRET)
 
 recs = client.get_recordings('steph@io-sphere.io')
+print(recs)
 #print(recs['meetings'][0]['id'])
 #print(recs['meetings'][0]['recording_files'][2])
 if recs['meetings']:  
@@ -126,3 +128,8 @@ print(f"total time spoken =  '{df['time_delta'].sum()}'")
 df.tail(10)
 #print(speaker)
 # #print(tabulate(df.head(), headers='keys', tablefmt='psql'))
+
+stephe_record = client.get_recordings_old('greg@io-sphere.io', '2024-01-25','2024-01-30')
+#print(stephe_record['meetings'])
+print(len(stephe_record['meetings']))
+print(json.dumps(stephe_record['meetings'][0], indent=4))

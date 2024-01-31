@@ -41,3 +41,11 @@ class ZoomClient:
         download_link_trans = f'{r_dict}?access_token={self.access_token}&playback_access_token={r["password"]}'
         return download_link_trans
     
+    def get_recordings_old(self, username, fromDate, toDate):
+        headers = {
+            "Authorization": f"Bearer {self.access_token}"
+        }
+        url = f"https://api.zoom.us/v2/users/{username}/recordings?from={fromDate}&to={toDate}"
+        #url = f"https://api.zoom.us/v2/past_meetings/{meetingId}/instances"
+        #return url
+        return requests.get(url, headers=headers).json()

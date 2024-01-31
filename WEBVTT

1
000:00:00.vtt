@@ -1,0 +1,910 @@
+WEBVTT
+
+1
+000:00:00.000 --> 000:00:06.249
+Harry Odell:  easy, lady. Cool. Good morning. Alright. So today
+
+2
+000:00:06.590 --> 000:00:10.360
+Harry Odell: we don't have a title for the little stand up.
+
+3
+000:00:10.460 --> 000:00:13.070
+Harry Odell: We just gonna talk about some.
+
+4
+000:00:13.080 --> 000:00:27.390
+Harry Odell: at least to me, semi interesting data problem. So I'm gonna get your thoughts on a couple of them. And then at the end we'll see what the take away might be. And I'm gonna let you guys
+
+5
+000:00:27.490 --> 000:00:39.319
+Harry Odell: dictate and lead on that. So it does require a little bit of input from your end. So just play along, and hopefully we shall get somewhere.
+
+6
+000:00:40.940 --> 000:00:42.679
+Harry Odell: and there are some slides
+
+7
+000:00:45.710 --> 000:00:48.800
+Harry Odell: which hopefully you can see
+
+8
+000:00:51.340 --> 000:00:55.180
+Harry Odell: cool. I've got a couple nods all right blank sides.
+
+9
+000:00:55.700 --> 000:01:21.030
+Harry Odell: Cool. My tree groups. I'm sorry, guys. You're counted out of this first one, at least. So for the rest of you, we're looking at a plane, and I like to tease this one out. And my tree groups have already have already seen this one. So I'm gonna skip through pretty quickly. Just because we've got a few examples to get through. Alright, we have a plane, it has dots on. What are we looking at?
+
+10
+000:01:23.810 --> 000:01:26.060
+Harry Odell: Come on suggestions. Let's go.
+
+11
+000:01:26.830 --> 000:01:30.960
+These are the net holes of a plane during the war.
+
+12
+000:01:31.080 --> 000:01:46.610
+Harry Odell: You've seen it before, Jack. Then no spoilers. Cool, alright bullet holes exactly. That's right. Well, well, too. We have this data set. We've got bullet holes in our planes.
+
+13
+000:01:46.810 --> 000:01:51.369
+Harry Odell: We want to make our planes better. We want to look after our soldiers.
+
+14
+000:01:51.960 --> 000:01:59.229
+Harry Odell: What do we do with our with our data set here thinking about the planes, the wackiness suggestions? The better let's go.
+
+15
+000:02:08.080 --> 000:02:16.060
+Eli Azlin: Would you reinforce those specific areas would like different material. So but it's don't
+
+16
+000:02:16.570 --> 000:02:17.819
+Eli Azlin: damage as much.
+
+17
+000:02:18.410 --> 000:02:19.819
+Harry Odell: We can add armour.
+
+18
+000:02:21.280 --> 000:02:22.699
+Harry Odell: What else can we do?
+
+19
+000:02:28.800 --> 000:02:33.560
+Maybe make those areas harder to hit like skinnier. I don't know.
+
+20
+000:02:34.230 --> 000:02:39.390
+Harry Odell: We can make the areas harder to hit. We can make the wings smaller. Maybe, Rob, I don't know
+
+21
+000:02:41.640 --> 000:02:43.309
+Harry Odell: what else might we want to do.
+
+22
+000:03:05.670 --> 000:03:08.150
+Harry Odell: Month PA.
+
+23
+000:03:08.360 --> 000:03:11.750
+Harry Odell: Kelly Owen. Ernest. Ideas! Let's go
+
+24
+000:03:13.840 --> 000:03:15.749
+Harry Odell: cheery. I can see you smiling.
+
+25
+000:03:20.070 --> 000:03:25.900
+Peter Shatwell: but I I'm I'm staying quiet, cause II know where this is going as well like like Jack.
+
+26
+000:03:26.400 --> 000:03:30.659
+Peter Shatwell: Alright, then then help us out. I guess it's just like thinking about
+
+27
+000:03:30.840 --> 000:03:42.200
+Peter Shatwell: how have we? How have we got this data?  yeah. Cause this is a plane that's been in the war and has come back to us. And we're now looking at it.
+
+28
+000:03:45.830 --> 000:03:49.639
+Harry Odell: Pete is by and gone. So what? What do we take away from that? What Pete has just said.
+
+29
+000:03:58.460 --> 000:04:03.860
+Harry Odell: okay, conscious of time, let me rephrase that. This is our data set.
+
+30
+000:04:06.390 --> 000:04:09.570
+Harry Odell: What are we missing from this picture?
+
+31
+000:04:12.220 --> 000:04:17.159
+robmadigan: Maybe we're missing numbers here like actual like counting all the
+
+32
+000:04:17.329 --> 000:04:19.300
+different individual darts or something.
+
+33
+000:04:19.839 --> 000:04:23.849
+robmadigan: Not sure. So these planes are in the war, right? They're fighting.
+
+34
+000:04:24.700 --> 000:04:31.880
+Harry Odell: We're imagining we've got these plates back because we can see the data. So what are we missing
+
+35
+000:04:32.100 --> 000:04:32.980
+Harry Odell: Cherry?
+
+36
+000:04:34.060 --> 000:04:36.770
+Shiri: This is gonna sound really dumb. But the pilot made it back.
+
+37
+000:04:37.360 --> 000:04:38.180
+Harry Odell: Yeah.
+
+38
+000:04:38.760 --> 000:04:44.979
+Shiri: So the people on the plane and where they were located.
+
+39
+000:04:45.970 --> 000:04:52.500
+Harry Odell: Oh, the first it was Ryan.
+
+40
+000:04:52.690 --> 000:04:56.179
+Harry Odell: These planes made it back. So what are we missing?
+
+41
+000:04:56.880 --> 000:04:58.209
+Eli Azlin: The ones that didn't.
+
+42
+000:04:58.500 --> 000:05:02.030
+Harry Odell: the ones that didn't? Where did the ones that didn't get shot
+
+43
+000:05:08.360 --> 000:05:09.800
+Andrei Espenilla: where the pilot's in.
+
+44
+000:05:10.600 --> 000:05:13.399
+Harry Odell: When a pilot's sitting. Okay, where else?
+
+45
+000:05:16.150 --> 000:05:20.329
+Shiri: The areas that are like white and not dotted.
+
+46
+000:05:20.430 --> 000:05:22.990
+Harry Odell: basically the blind carrier. So
+
+47
+000:05:23.120 --> 000:05:34.039
+Harry Odell: these any areas here that really interesting to us these are where, if you get shot, you ain't coming home. So we're looking at this now, and perhaps
+
+48
+000:05:34.130 --> 000:05:38.239
+Harry Odell: Rob said. Can't remember about said, we want to protect these red dots.
+
+49
+000:05:38.400 --> 000:05:46.120
+Harry Odell: Actually, that's wrong. This is what we call survivorship bias. These are the planes that return back. And so we need to flip the script a little bit.
+
+50
+000:05:46.840 --> 000:05:50.039
+Harry Odell: Focus on the white areas here.
+
+51
+000:05:50.070 --> 000:05:53.070
+Harry Odell: So that's example number one.
+
+52
+000:05:54.050 --> 000:05:55.660
+Harry Odell: example number 2,
+
+53
+000:05:57.080 --> 000:05:59.949
+Harry Odell: ice cream sales.
+
+54
+000:06:03.650 --> 000:06:08.069
+Harry Odell: What are we looking at? What? What do we not want to do with our ice creams?
+
+55
+000:06:13.260 --> 000:06:19.879
+robmadigan: Isn't that like example of causation? Isn't. The correlation is neat with the causation.
+
+56
+000:06:21.120 --> 000:06:25.800
+robmadigan: Yeah. So what what's going on? Then? They're kind of like trying to
+
+57
+000:06:26.290 --> 000:06:32.260
+robmadigan: find a relationship between 2 totally independent sports factors.
+
+58
+000:06:32.290 --> 000:06:41.059
+whereas, like increase of let's look at their one on the right increase of ice creams related to increase chart. This. like where to has the relationship with that kind of.
+
+59
+000:06:41.710 --> 000:06:54.180
+robmadigan: But obviously I don't know as the months go on. I guess that's that's what they're trying to get at. Aim at trying to say that both increase as the months go on. Well, obviously, they're unrelated to each other.
+
+60
+000:06:55.580 --> 000:06:56.460
+So yeah.
+
+61
+000:06:57.070 --> 000:06:57.930
+Harry Odell: yeah.
+
+62
+000:06:58.280 --> 000:07:01.240
+Harry Odell: time off. Does anyone want to flesh out
+
+63
+000:07:02.470 --> 000:07:03.930
+Harry Odell: Rob's argument there.
+
+64
+000:07:06.970 --> 000:07:23.329
+Peter Shatwell: Oh, okay, sure. I mean, yeah. I guess what you don't want to do is just that there's a causal relationship between. The variables like ice cream sold and shark attacks or ice cream sold and murder rate.
+
+65
+000:07:23.350 --> 000:07:34.500
+Peter Shatwell:  but like. I know, there is a relationship between the 2. But you have to think I don't know what else might be driving that. And and typically it's
+
+66
+000:07:34.510 --> 000:07:38.010
+Peter Shatwell: like a third variable that might
+
+67
+000:07:38.200 --> 000:07:45.219
+Peter Shatwell: contribute to both in a similar way which leads to that kind of correlation. But that's just a suggestion.
+
+68
+000:07:45.840 --> 000:07:50.190
+Harry Odell: Sounds good to me. Give me that third variable on the right hand side.
+
+69
+000:07:51.720 --> 000:07:52.610
+Harry Odell: Alex.
+
+70
+000:07:53.380 --> 000:08:01.340
+Alex Yelland: Shark attacks will probably happen around the beach sort of area which people go to in the summer, which is when people will also be buying ice creams.
+
+71
+000:08:02.590 --> 000:08:22.040
+Harry Odell: Cool. Yeah, sunnier it is, the more people buy ice creams, the more people go swimming in the sea, and the more shark attacks around. So that's the common thread there. We might in this case basically say, stop selling ice creams, and people might not get attacked by sharks. But that's not what we want to do. Okay, take the left side. Then
+
+72
+000:08:22.210 --> 000:08:29.460
+Harry Odell: ice creams and murderate in New York City. Someone tell me what's going on there open to wacky suggestions. Again.
+
+73
+000:08:36.640 --> 000:08:37.679
+Harry Odell: Victoria.
+
+74
+000:08:39.240 --> 000:08:43.460
+Victoria Sanders: It could be the summer again. There are more ice creams sold.
+
+75
+000:08:43.620 --> 000:08:54.510
+Victoria Sanders: you know. over in the summer again, and people are also hot and nasty and grumpy in the summer, so there are times where ice cream sold and murder rates are higher
+
+76
+000:08:54.730 --> 000:09:00.640
+Victoria Sanders: is, especially in New York. It's disgusting in the summer, so people will kill people
+
+77
+000:09:01.100 --> 000:09:05.809
+Harry Odell: I love love that I've been in. I lived in New York for a few years, was there in the summer.
+
+78
+000:09:05.840 --> 000:09:10.420
+Harry Odell: I didn't kill anyone. But I did get a bit. Iggy. Marsden.
+
+79
+000:09:11.420 --> 000:09:20.089
+Marsden Falcon: yeah. Just basically what? Victoria says. maybe there's more people out in the streets, drinking and stuff and whatnot hanging around. So
+
+80
+000:09:20.260 --> 000:09:22.620
+Marsden Falcon: more people shoot each other, however.
+
+81
+000:09:23.170 --> 000:09:26.000
+Harry Odell: Oh, alcohol, fuel, fuel! Murders
+
+82
+000:09:26.340 --> 000:09:29.420
+Harry Odell: interested! There was a couple hands. There, did we have
+
+83
+000:09:30.190 --> 000:09:32.620
+did you steal your answers? Basically.
+
+84
+000:09:33.480 --> 000:09:34.820
+Harry Odell: was it, Alex?
+
+85
+000:09:36.090 --> 000:09:50.919
+Alex Kononov: Yes, basically. My approach was the same as Marsden's. I mean, people, yeah, tend to spend more time outside in summer, which means they just have this longer
+
+86
+000:09:50.980 --> 000:09:55.309
+Alex Kononov: period within which they can be attacked
+
+87
+000:09:55.470 --> 000:10:10.029
+Alex Kononov: for any and every reason. And the same goes for the summer time when people tends to consume alcohol and drugs outside, etc., etc. So
+
+88
+000:10:10.150 --> 000:10:12.539
+Alex Kononov: yeah, basically, all of them together.
+
+89
+000:10:13.190 --> 000:10:24.049
+Harry Odell: Cool. Yeah, I think they're all valid answers. I actually don't know what's driving this I'd probably say the same as you guys. But what we might infer just looking at the data itself
+
+90
+000:10:24.090 --> 000:10:32.650
+Harry Odell: is that thinking X is our independent? The more you murder or more murder there are the more ice creams you gonna sell. So
+
+91
+000:10:33.230 --> 000:10:37.270
+Harry Odell: that's the takeaway. That's what the data is telling us. There.
+
+92
+000:10:38.460 --> 000:10:43.469
+Harry Odell: cool. That's an example. Number 2, example number 3. Now this is going to take
+
+93
+000:10:44.090 --> 000:10:50.470
+Harry Odell: a wee explanation and a little bit of thought. Now let's imagine we are in a city.
+
+94
+000:10:50.830 --> 000:10:54.510
+Harry Odell: There are 2 taxi companies in Set City.
+
+95
+000:10:54.610 --> 000:10:58.080
+Harry Odell: a blue taxi and a Green Taxi company now
+
+96
+000:10:58.170 --> 000:11:07.690
+Harry Odell: nicely all in the Blue taxi com. All the taxes in the Blue Tax Company are blue and the green taxes are green. And this is the distribution. So there's 90%
+
+97
+000:11:07.840 --> 000:11:17.880
+Harry Odell: of the taxi to blue and 10% agree. There has been a hit and drug. Somebody got run over and we have one witness.
+
+98
+000:11:18.320 --> 000:11:20.150
+Harry Odell: The witness says.
+
+99
+000:11:20.360 --> 000:11:25.230
+Harry Odell: They saw a green taxi. Now, what the
+
+100
+000:11:25.690 --> 000:11:40.780
+Harry Odell: authorities did them was test this person's eyesight in the dark, which was when that this hit and run happened, and they said that in both instances, for both green and blue taxis, they were able to identify
+
+101
+000:11:41.220 --> 000:11:49.679
+Harry Odell: and correctly, 80% of the time. So this person saying, it's a green taxi that did it and given the data, we know that
+
+102
+000:11:49.770 --> 000:11:53.089
+Harry Odell: in 80%. And the cases for both sets of tuxes
+
+103
+000:11:53.540 --> 000:11:57.620
+Harry Odell: they get it right? That amount of time. It's 8%.
+
+104
+000:11:57.630 --> 000:12:00.510
+Harry Odell: So what do we conclude from
+
+105
+000:12:01.270 --> 000:12:06.699
+Harry Odell: our little investigation? The person saying, it's green. Are we happy with that?
+
+106
+000:12:17.440 --> 000:12:21.300
+Harry Odell: Anybody else want to jump in before I come to Alex.
+
+107
+000:12:26.980 --> 000:12:32.400
+Harry Odell: The person saying is green. Do we trust them? They get it right. 80% of the time
+
+108
+000:12:36.630 --> 000:12:38.070
+Harry Odell: go on, Peter.
+
+109
+000:12:38.770 --> 000:12:43.859
+Peter Shatwell:  well, yeah, I guess it's a strong data point that like
+
+110
+000:12:43.960 --> 000:12:47.199
+Peter Shatwell: you get it right? 80% of the time. But this is
+
+111
+000:12:47.700 --> 000:12:59.790
+Peter Shatwell: given. They've seen a green taxi. So But it's it's unlikely that they saw a green taxi. In the first place, as as there's only 10%. 10%. Of them are green.
+
+112
+000:12:59.900 --> 000:13:06.799
+Peter Shatwell: So I think I don't know it. I think it's still more likely that they see a blue one.
+
+113
+000:13:08.130 --> 000:13:09.630
+Harry Odell: coat, doctor.
+
+114
+000:13:12.110 --> 000:13:18.149
+Jack C: Yeah, I was thinking about like during the during the test. How is it the same split of
+
+115
+000:13:19.070 --> 000:13:20.830
+Jack C: blue and green taxis?
+
+116
+000:13:22.960 --> 000:13:32.379
+Jack C: So they saw. Let's say they tested it with a hundred green, a hundred blue, and in 8%. Of those cases for both colors, the person got it right.
+
+117
+000:13:32.840 --> 000:13:38.150
+Jack C: Oh, yeah, I trust him. Then you trust him. Yeah. cool. Alex.
+
+118
+000:13:39.270 --> 000:13:56.549
+Alex Kononov: I have 2 considerations here. First one is the fact that in this situation we are looking in this particular context, we are looking in reverse on the problem. I mean, they are not 80% right. They are 20% wrong.
+
+119
+000:13:56.840 --> 000:14:13.480
+Alex Kononov: Because when it comes to thing that can lead to somebody spending a lot of time in jail. And I think that's up to Covid underneath. Everybody understands very well what it means for a person's well being. It's quite a serious thing. And
+
+120
+000:14:13.590 --> 000:14:34.690
+Alex Kononov: having 20% error, possibilities a bit too much, and also in majority of countries, the judgements is made when the guilt is proven, be beyond a reasonable doubt. So I think 20% is
+
+121
+000:14:34.940 --> 000:14:45.050
+Alex Kononov: much higher than reasonable doubt. And I can understand that of course, there are only 10% of green taxes. But this is actually also.
+
+122
+000:14:45.210 --> 000:14:48.060
+Alex Kononov: from my points of view, an amplifying factor
+
+123
+000:14:48.290 --> 000:14:58.790
+Alex Kononov: in this case. Because we have a 20% margin for to 10% of the cars.
+
+124
+000:14:59.030 --> 000:15:00.690
+Alex Kononov: So yeah.
+
+125
+000:15:00.960 --> 000:15:07.470
+Harry Odell: okay, so it's it is uncertain. And see there, no matter what. And we got a little bit
+
+126
+000:15:07.700 --> 000:15:15.070
+Harry Odell: side transport. If if we're in the call, we want to be absolutely certain. Okay, a fair point. And Jack, did you want to comment? Or.
+
+127
+000:15:16.500 --> 000:15:18.189
+yeah, I was just thinking
+
+128
+000:15:18.470 --> 000:15:19.530
+Jack C: like it.
+
+129
+000:15:20.270 --> 000:15:33.119
+Jack C: Say, there's a hundred 1,000 taxi to something like it's a pretty good start to look at. Like if you're 80% certain. it's better than nothing. I don't think you're
+
+130
+000:15:34.800 --> 000:15:37.029
+yeah. I'd I'd put my hand outside immediately.
+
+131
+000:15:37.060 --> 000:15:46.650
+Jack C: It was a bit of a it was an accident, but that's kind of what I'm thinking is, it's like, it's a pretty good good start. 80%
+
+132
+000:15:47.040 --> 000:15:52.240
+Harry Odell: point in the finger someone. But it's a starting point.
+
+133
+000:15:52.290 --> 000:15:53.380
+Jack C: Okay.
+
+134
+000:15:54.430 --> 000:16:00.999
+Harry Odell: okay, cool. So we can actually see that as Pete, I was alluding to
+
+135
+000:16:01.680 --> 000:16:09.460
+Harry Odell: the breakdown of what might happen. And we can do this through dates. So this is what we call base rate policy. Now.
+
+136
+000:16:09.550 --> 000:16:14.800
+Harry Odell: we've got some evidence here, and that's the person telling us they seen a green taxi.
+
+137
+000:16:15.080 --> 000:16:32.740
+Harry Odell: What we tend to do at that point is focus in on what we've just come across. So we've just come across this person telling us it's green. And what we then do is kind of ignore the context. In that 90% of taxes in the city are blue.
+
+138
+000:16:33.010 --> 000:16:45.039
+Harry Odell: That's what Peter was saying. And next slide here, this is what the breakdown is. So if we look at this, we've got blue taxis and we have green taxis.
+
+139
+000:16:45.870 --> 000:16:47.899
+Harry Odell: There's 90 blue taxis.
+
+140
+000:16:47.940 --> 000:16:55.000
+Harry Odell: The person I could identify them correctly, 8% at a time, which gives us 72 taxes
+
+141
+000:16:55.950 --> 000:17:15.669
+Harry Odell: in the cases they were wrong. That's the 18 here, and vice versa. So what we're actually saying here is that if the person guessed or a person guessed person said it was a green taxi of those 10 taxis, they're gonna be right 8 at the time. Therefore we've got 8 taxis correctly identified.
+
+142
+000:17:16.130 --> 000:17:18.320
+Harry Odell: If we look at the flip side of that.
+
+143
+000:17:18.520 --> 000:17:22.159
+Harry Odell: the ones where they said it was bloop.
+
+144
+000:17:22.550 --> 000:17:40.030
+Harry Odell: Sorry it it was green, and it was actually blue. This is these 18 here. So what we're saying is, actually, if the person guessed a blue taxi incorrectly. That's 18 or green taxi correctly. That's 8. So it's more likely to be
+
+145
+000:17:40.190 --> 000:17:50.400
+Harry Odell: a blue taxi. But they said it was green rather than actually a green taxi there. So the data in this case is telling us that
+
+146
+000:17:50.700 --> 000:17:59.969
+Harry Odell: pretty much. Go with a blue toxie and ignore what this person's telling us. So this is the breakdown here, and this is
+
+147
+000:18:00.060 --> 000:18:13.919
+Harry Odell: for anyone that's done. Stats sort of the basis of Bayes theorem. Here the data is telling us ignore what this person's saying. Yes, it was a blue taxi. And you're going to be right more often than not.
+
+148
+000:18:14.680 --> 000:18:22.300
+Harry Odell: So that's example number 3. And last example. Here. For the football funds amongst us.
+
+149
+000:18:23.550 --> 000:18:25.400
+Harry Odell: Who do we want in our team?
+
+150
+000:18:29.160 --> 000:18:30.840
+Harry Odell: Just realise this is
+
+151
+000:18:32.840 --> 000:18:36.670
+Harry Odell: stolen from the sun. We don't like that.
+
+152
+000:18:40.280 --> 000:18:44.469
+Harry Odell: But yeah, discuss. Do we want Ronaldo, or do we want Messi
+
+153
+000:18:58.070 --> 000:18:58.890
+Harry Odell: Mawson
+
+154
+000:18:59.420 --> 000:19:02.029
+Marsden Falcon: just based on those stats?
+
+155
+000:19:02.080 --> 000:19:03.959
+Marsden Falcon: Be messy, wouldn't that? But
+
+156
+000:19:05.560 --> 000:19:15.300
+Marsden Falcon: I've argued, I prefer Ronaldo, and this is outside knowledge or so, judging, judging on them stats, I'd say it'd be it'd be messy. No.
+
+157
+000:19:17.700 --> 000:19:18.610
+Harry Odell: alright.
+
+158
+000:19:20.560 --> 000:19:23.999
+Florine: yeah, I was thinking the same thing because I thought his
+
+159
+000:19:24.520 --> 000:19:29.350
+Florine: club goals per game are higher than Ronaldo. and you play more
+
+160
+000:19:29.430 --> 000:19:33.129
+Florine: club games and international games. So that's why I thought messy
+
+161
+000:19:35.940 --> 000:19:39.769
+Harry Odell: anyone else in the Ronaldo Messi debate
+
+162
+000:19:43.280 --> 000:19:44.160
+Harry Odell: Alex.
+
+163
+000:19:44.680 --> 000:19:49.289
+Alex Yelland: In the head to head lioness. It's got more wins, which is ultimately all that matters.
+
+164
+000:19:50.910 --> 000:19:56.630
+Harry Odell: Winds are good. There was a second hand there disappeared.
+
+165
+000:20:10.830 --> 000:20:13.650
+Harry Odell: Sorry, Pete. Does anyone else want to come in? Come on!
+
+166
+000:20:13.680 --> 000:20:16.740
+Harry Odell: Where in Ronaldo versi preferences.
+
+167
+000:20:16.790 --> 000:20:18.669
+Harry Odell: data, whatever it may be.
+
+168
+000:20:21.750 --> 000:20:23.210
+Harry Odell: Who do you want in your team?
+
+169
+000:20:23.380 --> 000:20:28.109
+Peter Shatwell: Was that? Sh should should I say something?
+
+170
+000:20:28.610 --> 000:20:29.310
+Harry Odell: Yeah.
+
+171
+000:20:29.540 --> 000:20:33.589
+Peter Shatwell: We'll go to Victoria, and we'll come back to you after Victoria.
+
+172
+000:20:34.710 --> 000:20:45.160
+Victoria Sanders: who's cheaper. because then it matters like. you know, if you were like actually buying for a team. But Ronaldo's like.
+
+173
+000:20:45.190 --> 000:20:52.730
+Victoria Sanders: or messy like way more expensive. Then you might as well take Ronaldo, because a lot of the figures aren't that different? Really?
+
+174
+000:20:53.890 --> 000:21:02.490
+Harry Odell: Yeah, okay, so what we're looking at here isn't telling us the full picture price value wages only to factor in
+
+175
+000:21:02.660 --> 000:21:06.940
+Harry Odell: love. That Alex. Oh, sorry.
+
+176
+000:21:08.420 --> 000:21:18.980
+Alex Kononov: Yeah, it's a difficult question. But basically, I don't know. Based on statistics. For example, the number of goes per game.
+
+177
+000:21:19.600 --> 000:21:23.989
+Alex Kononov: Hmm Lionel Messi is
+
+178
+000:21:24.790 --> 000:21:28.439
+Alex Kononov: more efficient than Ronaldo.
+
+179
+000:21:28.540 --> 000:21:32.740
+Alex Kononov: and the same goes for Ballon d'or.
+
+180
+000:21:33.030 --> 000:21:41.909
+Alex Kononov: Which means that's internationally, he's recognized by the experts, so I don't know, and also he wins in head to head matches
+
+181
+000:21:42.120 --> 000:21:45.240
+Alex Kononov: by quite a serious amount
+
+182
+000:21:45.810 --> 000:21:46.920
+Alex Kononov: of plants.
+
+183
+000:21:47.280 --> 000:21:49.090
+Harry Odell: Yeah. Kelly.
+
+184
+000:21:49.550 --> 000:21:59.969
+kelly: I can see the same messy because he has another range of 20 goals per year. and Leonardo 19. So in 2 years we can have more goals.
+
+185
+000:22:01.730 --> 000:22:06.490
+Harry Odell: Okay? Cold? Peter, go on last comment.
+
+186
+000:22:08.130 --> 000:22:17.700
+Peter Shatwell: and I don't think I can add much like. I'm not. I'm not a football person. I would have thought you should.
+
+187
+000:22:18.640 --> 000:22:32.099
+Peter Shatwell: I guess. Weigh how much you you value. Your club wins over your international wins. And so, like the club goals per game and international goals per game are just just have different weights. And like, if you think
+
+188
+000:22:32.370 --> 000:22:36.119
+Peter Shatwell: winning on the international stage is more important than Gooey Ronaldo.
+
+189
+000:22:37.850 --> 000:22:40.099
+Karum Singh: Well, you're called the World Cup. So it doesn't matter
+
+190
+000:22:42.840 --> 000:22:44.700
+Harry Odell: of that, rob
+
+191
+000:22:45.620 --> 000:22:49.780
+robmadigan: just one. Our thing isn't around a little bit older than I see, too.
+
+192
+000:22:49.930 --> 000:22:54.080
+So could those facts be slightly skewed by the factions probably played for a bit longer.
+
+193
+000:22:54.370 --> 000:22:55.450
+robmadigan: Just a thought.
+
+194
+000:22:58.360 --> 000:23:00.739
+Harry Odell: Have we got any Monday night funds?
+
+195
+000:23:04.380 --> 000:23:05.900
+Can't see people
+
+196
+000:23:07.220 --> 000:23:08.709
+Harry Odell: any money night funds.
+
+197
+000:23:13.150 --> 000:23:16.240
+Harry Odell: no lot of head shakes. I'm surprised.
+
+198
+000:23:16.820 --> 000:23:18.800
+Harry Odell: Okay, so I'm in Monday night. Fine!
+
+199
+000:23:19.030 --> 000:23:22.380
+Harry Odell: What about the idea that Ronaldo is?
+
+200
+000:23:24.360 --> 000:23:30.460
+Harry Odell: How do I not swear at this point? You can fill in the blanks. Ronaldo is beep
+
+201
+000:23:30.680 --> 000:23:37.000
+Harry Odell: or a beep? What about that like? Do we still want him in our team.
+
+202
+000:23:38.540 --> 000:23:40.219
+Harry Odell: Mars? What does that beat me?
+
+203
+000:23:40.570 --> 000:23:42.710
+Karum Singh: Why is that beep?
+
+204
+000:23:42.990 --> 000:23:47.780
+Harry Odell: Fill in the blank with a bad word, basically, what's the first now?
+
+205
+000:23:47.960 --> 000:23:53.380
+Harry Odell: C or D, or any of the above?
+
+206
+000:23:56.130 --> 000:23:59.080
+Harry Odell: But yeah, do we still want him in the team.
+
+207
+000:24:00.790 --> 000:24:01.620
+Karum Singh: Yeah.
+
+208
+000:24:02.590 --> 000:24:09.610
+Alex Kononov: If it has negative impacts on the sales of merchandise or tickets? Of course not.
+
+209
+000:24:10.620 --> 000:24:12.630
+Karum Singh: It would have a positive effect.
+
+210
+000:24:15.070 --> 000:24:26.160
+robmadigan: probably would affect the the older team members as well. And the you know, the team chemistry. So that's a that's a bad thing, cause it could drop the performance as as a team as a whole.
+
+211
+000:24:27.550 --> 000:24:29.860
+Harry Odell: Yeah, I love that show you had your hand up.
+
+212
+000:24:31.630 --> 000:24:33.839
+Shiri: It was the same exact point as Rob
+
+213
+000:24:35.140 --> 000:24:38.280
+Harry Odell: find that first wrong. Okay, yeah. Hello.
+
+214
+000:24:38.490 --> 000:24:43.640
+Harry Odell: Point here. Well, I'll actually, I'll leave that for now.
+
+215
+000:24:43.950 --> 000:24:51.860
+Harry Odell: is basically this. So this is the takeaway from today's little chat
+
+216
+000:24:52.590 --> 000:25:00.309
+Harry Odell: not to jump to conclusions. And this is our little bear doing exactly that. So if we just quickly recap.
+
+217
+000:25:00.750 --> 000:25:11.830
+Harry Odell: In this case the date is telling us at least what we think is armor. The red points. In this case it's stop selling ice creams and
+
+218
+000:25:11.940 --> 000:25:26.749
+Harry Odell: mergers in New York. I'm gonna go down and we're gonna stop shark attacks. In this case, our intuition is saying the guys telling us it's green, but actually ignore what he's saying, and trust the data in this case.
+
+219
+000:25:27.130 --> 000:25:31.600
+Harry Odell: And then this, it's just a toss up right? We've got stats that
+
+220
+000:25:31.770 --> 000:25:57.289
+Harry Odell: at telling those a story to quite evenly match. But then there's other factors that are coming into it. And my opinions quite strong. Don't really like Ronaldo. I probably wouldn't want him in my team again for various factors. Price, like Victoria said, might come into it. So there's more to it than just to date. So when it comes to bringing in some somebody. So when we're thinking about
+
+221
+000:25:57.490 --> 000:26:08.269
+Harry Odell: data and conclusions and trying to tell that story, just have always have in mind that there's more to it than what the data is telling us. So there's always a trade off between
+
+222
+000:26:08.530 --> 000:26:23.459
+Harry Odell: intuition subject matter, expertise, got feeling. You know, we are humans, and they're all valid when it comes to decision making. So all that stuff sits on one side, and then we have the data on what that's telling us on the other. And it's like a scale, right?
+
+223
+000:26:23.610 --> 000:26:44.260
+Harry Odell: And we need to use judgment anytime. We make in a data driven decision about where we gonna land on that scale? Do we override what the date is telling us at face value, with what we know or do we trust, what we know and ignore what the date is seemingly telling us so. A little bit of food for fault this morning.
+
+224
+000:26:44.640 --> 000:26:49.780
+Harry Odell: And that is everything. I saw see you, I think
+
+225
+000:26:50.130 --> 000:26:52.409
+10 am. So go have a coffee
+
+226
+000:26:52.520 --> 000:26:57.250
+Harry Odell: chill out and catch you later. Bye, bye.
+
+227
+000:26:57.490 --> 000:26:58.300
+Florine: Hi!
+
