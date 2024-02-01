@@ -25,6 +25,7 @@ transcriber = aai.Transcriber()
 
 client = ZoomClient(account_id=ZOOM_ACCOUNT_ID, client_id=ZOOM_CLIENT_ID, client_secret=ZOOM_CLIENT_SECRET)
 
+#We would need a look here with usernames, and iterate for the number of meetings (index-1)
 recs = client.get_recordings('steph@io-sphere.io')
 print(recs)
 #print(recs['meetings'][0]['id'])
@@ -42,36 +43,11 @@ if recs['meetings']:
 else:
     print('No meetings to transcribe.')
 
-# Adding the vtt transformer
 
-# import urllib.request
-# query_parameters = {"downloadformat": "vtt"}
-# response = requests.get(my_url, params=query_parameters)
-# print(type(response.content))
-
-# with open(response.content) as f:
-#     corpus = f.read()
-
-#print(text)
-#print(response.content)
 with urllib.request.urlopen(my_url) as f:
     html = f.read().decode('utf-8')
 print(html)    
-# start=[]
-# end=[]
-# text=[]
-# speaker=[]
-# for caption in webvtt.read(response.content):
-#     start.append(caption.start)
-#     end.append(caption.end)
-#     text.append(caption.text)
-#     speaker.append(caption.raw_text)
 
-
-# #print(type(my_url))
-# print(html)
-
-#trans_url
 text= html
 for i in range(0,10):
     j=str(i)
