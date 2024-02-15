@@ -5,3 +5,4 @@ pyzoom==1.0.5
 ipykernel==6.29.0
 webvtt-py==0.4.6
 pandas==2.2.0
+plotly==5.19.0

@@ -17,3 +17,8 @@ The Zoom API's Behaviour is to call only the last recorded meeting. For all meet
 * -- Challenges as most recordings are from personal rooms the meetings IDs are the same this makes it difficult to detect eaceh session. A new approach to schedule meetings is required
 * -- Automate Download and append to table for all recordings on a given time by specific set of users. 
 * -- Loop and pass transcription IDs to capture each dataframe and append a series of dataframes
+
+# Helpful commands
+* -- Activate virtual environment `source .venv/bin/activate`
+* -- Install requirements `pip install -r requirements.txt`
+
