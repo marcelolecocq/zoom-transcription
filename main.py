@@ -28,8 +28,15 @@ client = ZoomClient(account_id=ZOOM_ACCOUNT_ID, client_id=ZOOM_CLIENT_ID, client
 
 #We would need a look here with usernames, and iterate for the number of meetings (index-1)
 #recs = client.get_recordings('marcelo@io-sphere.io')
-recs = client.get_recordings_old('marcelo@io-sphere.io', '2024-01-20','2024-02-20')
-print(recs)
+list_of_meeting_hosts = ['marcelo@io-sphere.io'
+                         ,'steph@io-sphere.io'
+                         ,'harry@io-sphere.io'
+                         ,'eben@io-sphere.io'
+                         ,'greg@io-sphere.io']
+
+recs = client.get_recordings_old('steph@io-sphere.io', '2024-01-08','2024-02-18')
+# print(recs)
+# print(type(recs))
 #print(recs['meetings'][0]['id'])
 #print(recs['meetings'][0]['recording_files'][2])
 df_final=[]
@@ -40,7 +47,7 @@ if recs['meetings']:
         my_url = client.get_download_url(rec_id)
         with urllib.request.urlopen(my_url) as f:
             html = f.read().decode('utf-8')
-            print(html)    
+            #print(html)    
 
             text= html
             for i in range(0,10):
@@ -72,7 +79,7 @@ if recs['meetings']:
             with open(cleanedVTT) as f:
                 cleanedtext = f.read()
 
-            print(cleanedtext)
+            #print(cleanedtext)
             import webvtt
             start=[]
             end=[]
@@ -106,6 +113,7 @@ df['EndTime'] = pd.to_datetime(df['EndTime'])
 df['time_delta'] = (df['EndTime']-df['StartTime'])/ np.timedelta64(1, 's')
 df.groupby(['Speaker'], sort=True)['time_delta'].sum()
 
+print(df.head())
 
     
 
@@ -127,3 +135,11 @@ fig = go.Figure(go.Bar(
             orientation='h'))
 fig.update_layout(yaxis={'categoryorder':'total ascending'})
 fig.show() 
+
+
+# stephe_record = client.get_recordings_old('steph@io-sphere.io', '2024-01-20','2024-01-30')
+# #print(stephe_record['meetings'])
+# print(len(stephe_record['meetings']))
+# print(len(stephe_record['meetings']))
+# print(json.dumps(stephe_record['meetings'][0], indent=4))
+ 

@@ -22,3 +22,5 @@ The Zoom API's Behaviour is to call only the last recorded meeting. For all meet
 * -- Activate virtual environment `source .venv/bin/activate`
 * -- Install requirements `pip install -r requirements.txt`
 
+# BIG Chanllenge
+Because the same meeting id is used for multiple meetings the algorithm is finding it difficult to select which is the correct transcription. In the case of Steph is not finding any transcriptions even when we know that meeting 5 contains one. This  can be remidiate it by selecting a different meeting id perhaps.

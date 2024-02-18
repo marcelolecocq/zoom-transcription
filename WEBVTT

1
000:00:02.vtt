@@ -1,14 +1,2194 @@
 WEBVTT
 
 1
-000:00:02.730 --> 000:00:14.850
-Marcelo Lecocq: This is a very test small test scenario to check the capabilities of the Zoom Api to be able to capture the Zoom Api
+000:00:02.740 --> 000:00:03.560
+Steph Wright: There we go.
 
 2
-000:00:15.470 --> 000:00:18.149
-Marcelo Lecocq: credentials rhythm through python.
+000:00:04.290 --> 000:00:07.549
+Steph Wright: Keep those all got lots of slides here.
 
 3
-000:00:18.440 --> 000:00:24.089
-Marcelo Lecocq: download the Transcript and do something with that transcript in Python.
+000:00:09.070 --> 000:00:11.180
+Steph Wright: I mean, it's clean.
+
+4
+000:00:11.490 --> 000:00:13.399
+Steph Wright: It's very, very clean.
+
+5
+000:00:13.670 --> 000:00:22.299
+Steph Wright: I do wish the graphs would actually look like that. I mean, that sort of revenue growth would be beautiful. So is this your wireframe
+
+6
+000:00:22.490 --> 000:00:23.580
+Steph Wright: orange team?
+
+7
+000:00:24.250 --> 000:00:33.590
+Hamna Amer: Yeah. So it was just like the draft I made without any values or any data yet. So just I was assuming what it would come out as
+
+8
+000:00:35.150 --> 000:00:41.739
+Steph Wright: II love the the assumed 30% increase in profit if we could do that every year. Yes.
+
+9
+000:00:41.890 --> 000:00:44.259
+Steph Wright: like prism is going to go far.
+
+10
+000:00:45.250 --> 000:00:48.669
+Steph Wright: But this is this is really clear that that headline
+
+11
+000:00:48.890 --> 000:00:55.300
+Steph Wright: that we're talking about. We've got the increased part. and if you've dug in
+
+12
+000:00:55.840 --> 000:01:00.429
+Steph Wright: to the the profit things and maybe split out by category.
+
+13
+000:01:00.710 --> 000:01:03.850
+Steph Wright: you might see. were socks
+
+14
+000:01:03.870 --> 000:01:09.440
+Steph Wright: responsible for this increase in profit as they were. Tell us.
+
+15
+000:01:09.960 --> 000:01:15.100
+Steph Wright: I don't think there's any cycling stuff in the prism database, by the way, just so, you know.
+
+16
+000:01:16.290 --> 000:01:23.179
+Steph Wright: But if it's if you're planning on having your site this clean. this is this is a really good place to start
+
+17
+000:01:23.510 --> 000:01:24.670
+Steph Wright: speaking from
+
+18
+000:01:25.130 --> 000:01:29.440
+Steph Wright: it requires very good speaker notes.
+
+19
+000:01:29.650 --> 000:01:34.030
+Steph Wright: If you're not the person presenting. because
+
+20
+000:01:34.290 --> 000:01:39.880
+Steph Wright: less Q on the slide means there's more chance that you forget what you're supposed to say.
+
+21
+000:01:41.020 --> 000:01:41.690
+Just
+
+22
+000:01:41.930 --> 000:01:44.600
+Steph Wright: I've been there. Your brain just goes.
+
+23
+000:01:45.630 --> 000:01:48.259
+Steph Wright: Nope. Nope, don't remember this one.
+
+24
+000:01:48.430 --> 000:01:52.079
+Steph Wright: but the great thing is, if you've picked the right visualisation
+
+25
+000:01:52.380 --> 000:01:53.540
+Steph Wright: in order
+
+26
+000:01:53.640 --> 000:01:56.360
+Steph Wright: to illustrate your headline.
+
+27
+000:01:56.910 --> 000:01:59.139
+Steph Wright: then you can work it out as you go along.
+
+28
+000:01:59.490 --> 000:02:03.069
+Steph Wright: Your audience can be working it out for themselves.
+
+29
+000:02:04.160 --> 000:02:09.980
+Steph Wright: and it's just making sure that any of those points that you really want to land.
+
+30
+000:02:10.320 --> 000:02:14.110
+Steph Wright: such as, okay, our profit increased because of socks.
+
+31
+000:02:15.350 --> 000:02:21.180
+Steph Wright: Our recommendation is it that we're going to do something with socks because we think it's going to continue this way.
+
+32
+000:02:21.520 --> 000:02:23.999
+Steph Wright: or do we think socks have had their time?
+
+33
+000:02:24.230 --> 000:02:27.509
+Steph Wright: And it's time to try and spike profit
+
+34
+000:02:27.790 --> 000:02:28.980
+Steph Wright: by looking at
+
+35
+000:02:29.170 --> 000:02:35.010
+Steph Wright: X, because we've seen that there is something that we could potentially tap into.
+
+36
+000:02:36.050 --> 000:02:38.169
+Steph Wright: And I can see on the next one. We
+
+37
+000:02:38.620 --> 000:02:43.639
+Steph Wright: we've got stuff over time. and I'm a big fan, by the way.
+
+38
+000:02:43.740 --> 000:02:45.630
+Steph Wright: of the slanted dates
+
+39
+000:02:45.640 --> 000:02:51.990
+Steph Wright: versus having fewer dates horizontally. I think they're quite easy to read.
+
+40
+000:02:52.460 --> 000:02:53.190
+Steph Wright: and
+
+41
+000:02:53.350 --> 000:03:02.240
+Steph Wright: especially when you're doing a time shows you want to know the increments that your dots are in. This allows you to have more granular data.
+
+42
+000:03:03.420 --> 000:03:06.800
+Steph Wright: Now, this is something I've I've been hoping would pop up.
+
+43
+000:03:07.240 --> 000:03:09.799
+Steph Wright: You've defined your metric.
+
+44
+000:03:10.790 --> 000:03:12.540
+Steph Wright: which I did ask you to do
+
+45
+000:03:13.870 --> 000:03:18.369
+Steph Wright: to explain to your stakeholder how you're calculating this thing
+
+46
+000:03:18.400 --> 000:03:31.099
+Steph Wright: so that we understand, like what it means because a lot of the time stakeholders will recognize conversion rate, they'll recognize Abbv. Say, but they've got no idea what that means.
+
+47
+000:03:31.760 --> 000:03:37.329
+Steph Wright: And so stating it clearly, if that is the purpose of the presentation.
+
+48
+000:03:38.170 --> 000:03:39.799
+Steph Wright: I wouldn't say it's a bad show.
+
+49
+000:03:41.090 --> 000:03:46.079
+Steph Wright: And I can see you've left space like with your transactions recommendation, right?
+
+50
+000:03:46.450 --> 000:03:55.000
+Steph Wright: Basically, we just summarise the big thing. Stick it in that top bit. I do like the colour scheme.
+
+51
+000:03:56.200 --> 000:04:06.499
+Steph Wright: It's a consistent color scheme is is important. I'm going to put that out. For the most part it does not matter what your color scheme is, except
+
+52
+000:04:06.880 --> 000:04:10.359
+Steph Wright: there are certain colours that people cannot tell apart.
+
+53
+000:04:10.890 --> 000:04:14.149
+Steph Wright: I think one member of our staff is colorblind.
+
+54
+000:04:14.890 --> 000:04:26.120
+Steph Wright: So if you're using red and green as color separators. You might want to rethink that. And you can find like, add ins for Google, that will assess the
+
+55
+000:04:26.290 --> 000:04:33.169
+Steph Wright: is called an accessibility screen. So they'll look at the accessibility of your chosen colors
+
+56
+000:04:33.550 --> 000:04:35.979
+Steph Wright: for anybody that's using them.
+
+57
+000:04:36.550 --> 000:04:41.840
+Steph Wright: And even if you don't care about color, blind people being able to look at your stuff.
+
+58
+000:04:42.060 --> 000:04:59.820
+Steph Wright: It does actually help. You see whether your colours are distracting as well. It gets you to really start thinking about the visual impact. Just like, remember Eddie Azard with the the big makeup around the eyes. Right? Little bit of colour choice makes a big impact.
+
+59
+000:05:01.560 --> 000:05:03.949
+Steph Wright: We want to try and work with that
+
+60
+000:05:05.220 --> 000:05:06.320
+Steph Wright: one thing. Nice.
+
+61
+000:05:07.420 --> 000:05:11.680
+Steph Wright: All capitals when it's not an acronym.
+
+62
+000:05:12.050 --> 000:05:13.660
+Steph Wright: Looks like you're shouting.
+
+63
+000:05:15.820 --> 000:05:18.569
+Steph Wright: So it's also harder to read.
+
+64
+000:05:18.750 --> 000:05:24.000
+Steph Wright: Not. It's going to stop people reading, but it will take them a fraction of a second longer
+
+65
+000:05:24.180 --> 000:05:31.149
+Steph Wright: to read conversion rate in all caps than it will in lower case, I'm not bullshitting you. Studies have been done.
+
+66
+000:05:31.740 --> 000:05:42.309
+Steph Wright: and so, unless it really is like you're trying to convince people that prism is about to die a slow, painful death because of something you've found. I would probably
+
+67
+000:05:42.630 --> 000:05:43.580
+Steph Wright: avoid that
+
+68
+000:05:43.930 --> 000:05:47.670
+Steph Wright: also. It then makes when you are using an acronym.
+
+69
+000:05:47.950 --> 000:05:49.129
+Steph Wright: stand out more.
+
+70
+000:05:49.200 --> 000:05:52.069
+Steph Wright: because it will be the only collection of
+
+71
+000:05:52.400 --> 000:05:55.429
+Steph Wright: what's its capital letters on the screen.
+
+72
+000:05:56.540 --> 000:06:05.549
+Steph Wright: I'm really hoping, Orange, if you've got questions with what I'm saying, you'll jump in if anybody's got thoughts like, please put your hand up, tap in.
+
+73
+000:06:05.630 --> 000:06:07.000
+Steph Wright: Otherwise they
+
+74
+000:06:07.080 --> 000:06:18.510
+Muhammad Sabbagh: gave lots of slides, so I'm trying to make sure I can go through all of them right? So structure we were thinking of doing was to go with the Wi-frame initially, which shows off the
+
+75
+000:06:18.580 --> 000:06:24.429
+Muhammad Sabbagh: and all the key guys. We were told we had to include all 8, at least within the presentation, just as a show off
+
+76
+000:06:24.520 --> 000:06:45.990
+Muhammad Sabbagh: and then, after that point was to focus on on the 3 main kpis that we thought was the most significant. So for the structure, would you say to start with, you know, just an introduction with the wireframe essentially, and then 3 slides for each kpi that we think is the most significant. And then the conclusion, or am I thinking this incorrectly
+
+77
+000:06:46.700 --> 000:06:55.330
+Steph Wright: so what we're trying to do is sell the idea of this dashboard to our stakeholders. So we're trying to show them that it's useful.
+
+78
+000:06:55.960 --> 000:07:04.609
+Steph Wright: which means we should probably start with showing them what we intend for it to look like. So here is how I'm going to display these Kpis for you. Isn't it clear
+
+79
+000:07:05.100 --> 000:07:13.580
+Steph Wright: these are the things that we're gonna work on? You maybe touch quickly on definitions of the ones that you aren't gonna dig into.
+
+80
+000:07:14.330 --> 000:07:15.869
+Muhammad Sabbagh: Right? Yeah. Good
+
+81
+000:07:16.020 --> 000:07:22.009
+Steph Wright: dig into the ones that you are planning on explaining with a recommendation. It's wasting time.
+
+82
+000:07:22.050 --> 000:07:25.399
+Steph Wright: People don't like hearing that sort of thing just repeated.
+
+83
+000:07:26.280 --> 000:07:28.310
+Muhammad Sabbagh: Yeah, so you leave out your 3.
+
+84
+000:07:28.930 --> 000:07:32.750
+Steph Wright: Then yeah, move on to the individual ones.
+
+85
+000:07:32.860 --> 000:07:34.819
+Steph Wright: Look at yeah, the Kpi itself.
+
+86
+000:07:34.930 --> 000:07:39.720
+Steph Wright: what it's telling you. And therefore what you plan to do
+
+87
+000:07:39.820 --> 000:07:42.149
+Steph Wright: based on this shiny new knowledge
+
+88
+000:07:43.660 --> 000:07:50.550
+Steph Wright: plan to do is really easy to find, usually from splitting out your data
+
+89
+000:07:50.700 --> 000:07:54.659
+Steph Wright: in different ways. We go and do a lot of that next week.
+
+90
+000:07:54.970 --> 000:08:00.080
+Steph Wright: so you'll you'll get much practice. But this is where those kind of
+
+91
+000:08:00.790 --> 000:08:06.880
+Steph Wright: you can either set your own groupings with a case. Select statement or you can go. Well, we've got categories.
+
+92
+000:08:07.040 --> 000:08:13.110
+Steph Wright: We've got sizes. There's various things that you could split your Kpis out
+
+93
+000:08:13.330 --> 000:08:17.119
+Steph Wright: for the investigation portion of what you're doing.
+
+94
+000:08:18.760 --> 000:08:19.690
+Muhammad Sabbagh: Thanks.
+
+95
+000:08:20.460 --> 000:08:21.360
+Okay.
+
+96
+000:08:21.760 --> 000:08:24.890
+Steph Wright: Oh, we got some pink. However.
+
+97
+000:08:26.980 --> 000:08:27.780
+Steph Wright: I
+
+98
+000:08:28.170 --> 000:08:50.600
+Steph Wright: I'm not sure if you can overcome this in power. Bi, I think you can. I really really hate the underscores between the the things of the column headers that bigquery forces you to have because it doesn't like 2 words when you're doing a legend, you, if something is repeated in every single one of your
+
+99
+000:08:50.880 --> 000:08:51.880
+groups.
+
+100
+000:08:52.100 --> 000:08:53.630
+Steph Wright: take it out so I would
+
+101
+000:08:53.920 --> 000:08:55.240
+Steph Wright: just delete
+
+102
+000:08:55.360 --> 000:08:57.769
+Steph Wright: the underscore Ctr.
+
+103
+000:08:57.850 --> 000:09:04.080
+Steph Wright: For all of this, because we know that this is a graph of pick through right? Because you've told me
+
+104
+000:09:04.190 --> 000:09:05.340
+Steph Wright: in the headline.
+
+105
+000:09:06.490 --> 000:09:08.929
+Steph Wright: So then, it's just Google, Meta
+
+106
+000:09:09.010 --> 000:09:10.280
+Steph Wright: and the other ones.
+
+107
+000:09:12.410 --> 000:09:14.090
+Steph Wright: We've got the
+
+108
+000:09:14.310 --> 000:09:21.610
+Steph Wright: the click-through rates here. Now we've got 3 highlighted. I'm assuming that they're the ones that you're going to talk through.
+
+109
+000:09:22.570 --> 000:09:25.340
+Steph Wright: My my question is
+
+110
+000:09:26.010 --> 000:09:30.370
+Steph Wright: the order of them I'm trying to work out.
+
+111
+000:09:31.180 --> 000:09:47.909
+Steph Wright: Is it that you're sort of saying like, what's the the logic behind starting with the smaller number and going to the bigger rather than flip program. It's just because counterintuitive to look at. There could be a perfectly reasonable explanation. It's just late in the afternoon for me.
+
+112
+000:09:48.910 --> 000:09:56.560
+Hamna Amer: Well, II didn't pay attention to the order in while making this, so we're just like a random order. Then I because.
+
+113
+000:09:56.610 --> 000:09:57.790
+Hamna Amer: Oh, okay.
+
+114
+000:09:58.030 --> 000:10:01.680
+Steph Wright: I just if if there was a reason.
+
+115
+000:10:01.690 --> 000:10:05.830
+Steph Wright: But that is something to bear in mind. Do you remember way back when
+
+116
+000:10:05.960 --> 000:10:15.919
+Steph Wright: in a choir. We said that you've got to be careful with using line charts because they imply an order of something, even if there isn't an order to it.
+
+117
+000:10:16.200 --> 000:10:24.609
+Steph Wright: Same with when we stack things vertically, we automatically assume that you are trying to show us an ordered list.
+
+118
+000:10:24.690 --> 000:10:28.289
+Steph Wright: Now, it just so happens that the numbers have worked out that way
+
+119
+000:10:28.550 --> 000:10:29.540
+Steph Wright: for you.
+
+120
+000:10:30.340 --> 000:10:34.699
+Steph Wright: If it was Google first, I probably wouldn't have clocked it.
+
+121
+000:10:34.750 --> 000:10:43.369
+Steph Wright: But what I would do is, I would match all of the colors. The Rtb house. One is a different color
+
+122
+000:10:43.410 --> 000:10:45.380
+Steph Wright: than it is in your graph.
+
+123
+000:10:45.660 --> 000:10:49.899
+Steph Wright: and it's a little bit too close to the the overall CTR. One.
+
+124
+000:10:50.360 --> 000:10:53.130
+Steph Wright: For me. I love colour. Can you tell
+
+125
+000:10:53.950 --> 000:10:55.809
+Steph Wright: it? It can be
+
+126
+000:10:55.930 --> 000:10:58.420
+Steph Wright: really transformative
+
+127
+000:10:58.540 --> 000:11:04.429
+Steph Wright: in terms of people's understanding, but it can also be incredibly distracting.
+
+128
+000:11:05.200 --> 000:11:08.049
+Steph Wright: And so it's thinking, what do we need to show?
+
+129
+000:11:08.220 --> 000:11:12.430
+Steph Wright: And I'm going to ask a question here. Tiktok and
+
+130
+000:11:13.150 --> 000:11:15.619
+Steph Wright: Critio, whatever the hell that is.
+
+131
+000:11:15.860 --> 000:11:19.159
+Steph Wright: we've got one data point for them.
+
+132
+000:11:19.530 --> 000:11:23.790
+Steph Wright: Are you planning on talking about those 2
+
+133
+000:11:24.030 --> 000:11:26.469
+Steph Wright: with regards to click through rate?
+
+134
+000:11:27.930 --> 000:11:47.689
+Muhammad Sabbagh: There is some stuff we can mention, like the fact that it's an up and coming web source. So it's important that we, seeing as we lack the information we're showing that it's lacking. And so it's valuable for us to invest more into finding out whether or not it could generate CTO. So that's why it's important to have there, in my opinion, is that your recommendation?
+
+135
+000:11:47.870 --> 000:11:53.009
+Muhammad Sabbagh: I would recommend, yeah, that we we look in. Do you invest more into finding out what it shows.
+
+136
+000:11:53.320 --> 000:11:56.819
+Steph Wright: As long as that's your recommendation. then they should stay.
+
+137
+000:11:57.910 --> 000:12:05.410
+Steph Wright: But if they didn't come into your recommendation at all, because they're not referenced over here with the the other click through rates.
+
+138
+000:12:05.850 --> 000:12:08.089
+Steph Wright: you could say to yourself.
+
+139
+000:12:08.130 --> 000:12:14.979
+Steph Wright: Well, there's an awful lot of visual real estate being taken up by the legend for Crito and Tiktok.
+
+140
+000:12:15.130 --> 000:12:20.990
+Steph Wright: You might want to take them out, and then very explicitly state
+
+141
+000:12:21.200 --> 000:12:31.920
+Steph Wright: that you have taken them out, because you're looking at the trend over time rather than specifically at those 2. Now, that's not what you're doing, so don't take them out.
+
+142
+000:12:31.980 --> 000:12:40.080
+Steph Wright: I'm just saying, at the opposite end of the scale, you might end up taking a different choice. Marcello, please weigh in.
+
+143
+000:12:40.470 --> 000:12:54.509
+Marcelo Lecocq: No, no, no, I think you're right, so that if you put them there and you put the headline. Oh, we should invest in Tiktok. It's like you lost me. They don't. We don't even have data for, remember who you presented to
+
+144
+000:12:54.610 --> 000:13:09.700
+Marcelo Lecocq: presenting to people in prison or executives that got ideas of 3 vendors here, Google, Meta and Rtb, okay, they. They experimented, perhaps, with the other Tiktok Andreto and you.
+
+145
+000:13:09.760 --> 000:13:13.889
+Marcelo Lecocq: You may have information about the market and the trends around Tiktok.
+
+146
+000:13:14.220 --> 000:13:19.790
+Marcelo Lecocq: If you do have them put them in there and suggest we need to invest more in tick, Tock.
+
+147
+000:13:19.810 --> 000:13:22.129
+Marcelo Lecocq: But don't suggest something. You cannot back up
+
+148
+000:13:22.760 --> 000:13:35.509
+Marcelo Lecocq: because you'll dig yourself deep into a conversation. You cannot get out, you know. An executive could ask you why, why, tik Tok? I know nothing about Tik Tok, and you, unless you know and you've got data about tick tock.
+
+149
+000:13:36.080 --> 000:13:37.130
+Marcelo Lecocq: Don't put it there.
+
+150
+000:13:37.180 --> 000:14:01.560
+Marcelo Lecocq: That will be my advice. Focus on what you've got. What people understand. Okay, if you're working with the marketing team, of course. Hey, I've got this document. That shows that tick. Tock is the biggest platform growing in in a number of connections, etc., etc., etc. But if you don't have that. I will personally remove anything that is not familiar to the executives.
+
+151
+000:14:02.680 --> 000:14:04.860
+Muhammad Sabbagh: That's that makes sense. Thanks.
+
+152
+000:14:07.040 --> 000:14:16.210
+Steph Wright: I love having other coaches in the room who can like weigh in. You're getting very targeted. Slight feedback. I hope this is helpful.
+
+153
+000:14:16.550 --> 000:14:18.880
+Muhammad Sabbagh: Yeah, that's why I wanted to record it. Yeah.
+
+154
+000:14:19.130 --> 000:14:22.829
+Steph Wright: Yeah. But even if it's not your slides that we're looking at.
+
+155
+000:14:23.010 --> 000:14:24.899
+Steph Wright: I hope that by going through them
+
+156
+000:14:25.290 --> 000:14:30.500
+Steph Wright: you can take away something from that and then apply it
+
+157
+000:14:30.550 --> 000:14:31.580
+Steph Wright: to yours.
+
+158
+000:14:32.720 --> 000:14:34.300
+Steph Wright: Okay? So
+
+159
+000:14:36.550 --> 000:14:37.480
+Steph Wright: soaks.
+
+160
+000:14:37.730 --> 000:14:53.520
+Steph Wright: did someone go and put that in after our discussion, or was it already in there? Because if if it was Marcella, you're a Wizard. But but, by the way, is that I made it up. I didn't know the the prisons so socks. I haven't looked into the prison. We I'm pretty sure we sell socks.
+
+161
+000:14:53.570 --> 000:15:14.560
+Steph Wright: I was looking at the presentations, and there was socks in it. So I just put socks as the title same wavelength. That's what this is.
+
+162
+000:15:15.010 --> 000:15:21.180
+Steph Wright: You've found your person. See? Looking at this one.
+
+163
+000:15:22.970 --> 000:15:26.280
+Steph Wright: I'm not sure what the story is
+
+164
+000:15:26.510 --> 000:15:29.030
+Steph Wright: between the left hand graph
+
+165
+000:15:29.450 --> 000:15:34.010
+Steph Wright: and the right hand. Graph. It's the first one where I haven't really known
+
+166
+000:15:34.350 --> 000:15:38.819
+Steph Wright: what, how everything I've seen in these slides works together. Now
+
+167
+000:15:38.950 --> 000:15:44.909
+Steph Wright: you can overcome that by tying it, together with your narrative.
+
+168
+000:15:45.980 --> 000:15:51.249
+Steph Wright: but I would recommend that the titles that you're putting on those visualizations
+
+169
+000:15:51.440 --> 000:15:56.300
+Steph Wright: give me some hint as to why they're both there.
+
+170
+000:15:57.820 --> 000:16:02.630
+Steph Wright: I'm sure once we've got the different items in, it will become easier
+
+171
+000:16:02.990 --> 000:16:03.910
+Steph Wright: to see.
+
+172
+000:16:04.480 --> 000:16:08.320
+Steph Wright: But it's just at at the moment. I think the hypothetical
+
+173
+000:16:08.470 --> 000:16:17.999
+Steph Wright: nature of this has made it a little bit unclear compared to the others. But if you follow the same kind of logic you've done previously.
+
+174
+000:16:20.690 --> 000:16:24.870
+Marcelo Lecocq: I think you've got 2 stories here, whoever it's a hammer, you develop this slide.
+
+175
+000:16:25.410 --> 000:16:39.250
+Marcelo Lecocq: Yeah. So I was assuming that so the pro, like the items, like the most profitable ones, and then look into the return rate of them like if they're being returned from this. First of all, the inside
+
+176
+000:16:39.300 --> 000:16:43.860
+Marcelo Lecocq: is, I'm I'm super. I'm I'm assuming socks is your top number one. Item.
+
+177
+000:16:44.290 --> 000:16:54.629
+Marcelo Lecocq: yeah, that's fine. If you think about, you know, what's the story you want to say is is the highest profit. Okay, out of 100% of your profit.
+
+178
+000:16:54.730 --> 000:16:57.320
+Marcelo Lecocq: How much socks contribute towards
+
+179
+000:16:59.140 --> 000:17:08.550
+Marcelo Lecocq: think about how how much socks contribute to your profit as a percentage of the total profit and see whether that's changing over time. Just 2 years or 3 years of data.
+
+180
+000:17:08.560 --> 000:17:28.429
+Marcelo Lecocq: increasing profits. Contribution. That's one story, II think, is brilliant. Okay? So that perhaps oh, I didn't know we're selling so many sales. And I didn't know it was so so much profitable and and actually, the profitability is increasing as a percentage of ourselves. The second one that could be tied to someone else's slide.
+
+181
+000:17:28.620 --> 000:17:35.030
+Marcelo Lecocq: He's about the 20, I think, is with Karun that has a 28% return percentage.
+
+182
+000:17:35.150 --> 000:17:41.880
+Marcelo Lecocq: It could be that what is the contribution of the top 5 items.
+
+183
+000:17:42.200 --> 000:17:45.460
+Marcelo Lecocq: profitable, profitable items towards that return rate.
+
+184
+000:17:45.820 --> 000:17:50.940
+Marcelo Lecocq: Okay, actually, socks are contributing positively to the return rate because they go.
+
+185
+000:17:51.000 --> 000:18:01.569
+Marcelo Lecocq: You know, one of the lowest one. Okay, so I think there's 2 really interesting stories you can develop out of this 2 slides, perhaps not enough time for tomorrow. But but I think you bang on the money.
+
+186
+000:18:01.910 --> 000:18:02.680
+Hamna Amer: And
+
+187
+000:18:07.500 --> 000:18:22.490
+Jack C: I yeah, I just didn't have. Is that like, is this like hypothetical? Because we, the data hasn't. We don't have like the codes informed yet. So I was just assuming and
+
+188
+000:18:22.500 --> 000:18:25.429
+Hamna Amer: thinking how the presentation might look like.
+
+189
+000:18:25.740 --> 000:18:27.699
+yeah, no, I think it's a really
+
+190
+000:18:28.480 --> 000:18:37.689
+Jack C: smart way to do it, because I think that's like our team which are next, we're like, you kind of like in limbo of exactly like what we're gonna be doing.
+
+191
+000:18:37.890 --> 000:18:43.509
+Jack C: Because it's not yet confirmed. So yeah, it's just. I think it was a good way to do it
+
+192
+000:18:44.100 --> 000:18:45.590
+hypothetically
+
+193
+000:18:45.940 --> 000:18:49.880
+Jack C: took the words right out of my mouth, and I don't know.
+
+194
+000:18:49.970 --> 000:18:53.289
+Jack C: I think you might be the first person
+
+195
+000:18:53.580 --> 000:18:55.679
+Jack C: in the history of this course
+
+196
+000:18:55.950 --> 000:18:59.079
+Jack C: to have built a slide deck prior.
+
+197
+000:18:59.710 --> 000:19:10.170
+Steph Wright: not even on the first project, but second, third, like we hammer this all the time. Wireframe a dashboard, but wireframe your slides
+
+198
+000:19:10.480 --> 000:19:13.389
+Steph Wright: right. You just have to then slot it in
+
+199
+000:19:14.130 --> 000:19:15.900
+Steph Wright: mush stuff around a bit.
+
+200
+000:19:15.960 --> 000:19:21.609
+Steph Wright: This is the divide and conquer approach like it can often feel when you're given the presenting role.
+
+201
+000:19:21.700 --> 000:19:27.849
+Steph Wright: for example. Oh, well, I'm going to be scrabbling around absolutely last minute to do it. No.
+
+202
+000:19:28.420 --> 000:19:30.890
+Steph Wright: you know that you're going to have to have an introduction.
+
+203
+000:19:31.500 --> 000:19:35.170
+Steph Wright: You're going to have to have a body, and you're going to have to have a summation.
+
+204
+000:19:35.280 --> 000:19:37.930
+Steph Wright: Now the introduction you could be working on straight away.
+
+205
+000:19:38.160 --> 000:19:44.889
+Steph Wright: The body is going to involve you talking to all of the different people that's doing it, finding out where
+
+206
+000:19:45.070 --> 000:19:46.060
+Steph Wright: the
+
+207
+000:19:46.250 --> 000:19:48.590
+Steph Wright: kind of investigations are going.
+
+208
+000:19:48.650 --> 000:19:50.629
+Steph Wright: so that you can start thinking.
+
+209
+000:19:50.930 --> 000:19:55.610
+Steph Wright: And by them explaining to you what they're working on things will become clearer to them
+
+210
+000:19:56.500 --> 000:19:59.979
+Steph Wright: like wireframing is the best way to start
+
+211
+000:20:00.010 --> 000:20:01.560
+Steph Wright: anything.
+
+212
+000:20:02.710 --> 000:20:05.620
+Steph Wright: because it saves you time overall.
+
+213
+000:20:06.400 --> 000:20:10.129
+Steph Wright: You will realize this very much next week.
+
+214
+000:20:11.990 --> 000:20:13.299
+Learn from past mistakes.
+
+215
+000:20:13.760 --> 000:20:15.799
+Steph Wright: Alright, I'm going to go into
+
+216
+000:20:16.240 --> 000:20:17.380
+Steph Wright: this one.
+
+217
+000:20:18.320 --> 000:20:21.879
+Steph Wright: I did. I like that arrow. I don't know if I should.
+
+218
+000:20:21.910 --> 000:20:28.239
+Steph Wright: but I kind of like that right? Here's the bubble move to the next one. It it implies movement.
+
+219
+000:20:28.550 --> 000:20:32.930
+Steph Wright: and if you had kind of like those numbers going up, you could almost offset them
+
+220
+000:20:33.530 --> 000:20:35.990
+Steph Wright: slightly, the showing arrow going up
+
+221
+000:20:36.550 --> 000:20:42.150
+Steph Wright: same as if it goes down like really hammer home. That behaviour change.
+
+222
+000:20:42.700 --> 000:20:54.380
+Steph Wright: But II think you can see from this that you've you've got this idea of clarity being important. You just have to make sure that when you put in the real visualizations.
+
+223
+000:20:54.510 --> 000:20:58.620
+Steph Wright: the real bits of text that you don't allow
+
+224
+000:20:58.670 --> 000:21:03.540
+Steph Wright: this this clean set of slides to be overwhelmed
+
+225
+000:21:03.790 --> 000:21:12.559
+Steph Wright: by people going by. And I need this much up. Well, then, it's going to have to be an extra slide. or it's too much stuff for one presentation. Pick your favourite.
+
+226
+000:21:12.650 --> 000:21:15.500
+Steph Wright: because, as the people doing the slides.
+
+227
+000:21:15.570 --> 000:21:21.109
+Steph Wright: you have the power largely to decide what goes into them. and if you don't think
+
+228
+000:21:21.220 --> 000:21:28.259
+Steph Wright: that something meets the criteria of a data supported recommendation.
+
+229
+000:21:28.680 --> 000:21:31.020
+Steph Wright: Should you be putting it in your slide deck.
+
+230
+000:21:34.040 --> 000:21:43.599
+Steph Wright: Nope, you are the final line of defense. You and the presenter. You are the people that choose what the stakeholders see. If you know they shouldn't be seeing what you've put in
+
+231
+000:21:43.690 --> 000:21:44.740
+Steph Wright: reconsider.
+
+232
+000:21:46.240 --> 000:21:49.850
+Steph Wright: I probably won't be sensible like that again for the rest of the session. Just so, you know.
+
+233
+000:21:51.150 --> 000:21:56.899
+Steph Wright: you'll be glad to know Okido ski. So, Jack, you were saying, this is
+
+234
+000:21:57.060 --> 000:21:58.440
+Jack C: your group. Yes.
+
+235
+000:21:59.520 --> 000:22:06.359
+Jack C: this is this is all great. There's actually quite a lot of us here. Just Paul Marsden is the only person in the data Review.
+
+236
+000:22:06.470 --> 000:22:09.980
+Jack C: Oh, bless him! And he is not the biggest fan of sequel I remember.
+
+237
+000:22:10.060 --> 000:22:13.279
+Jack C: Would you like this recorded, or would you like me to stop recording?
+
+238
+000:22:13.380 --> 000:22:21.679
+Jack C: I did. Yeah, I didn't. Well, I can't speak for the others. But I've probably I've been writing notes as you go along, anyway, before we do the same.
+
+239
+000:22:22.340 --> 000:22:28.630
+Jack C: I'll leave it running then. So is this a why, what is this? A wireframe of Tommy? Talk to me?
+
+240
+000:22:28.760 --> 000:22:39.560
+Yeah. So we'd I just started roughly doing. It's not that long ago doing just the wireframe of what the dashboard could look like.
+
+241
+000:22:39.670 --> 000:22:49.940
+and then and then had that we actually need a real dashboard to stop doing it and then start to make a dashboard. But I'm not going to do that. I'm just as far as I'm
+
+242
+000:22:50.300 --> 000:22:55.860
+Jack C: from, like Google or dashboard wireframe is just what it's gonna look like, right?
+
+243
+000:22:56.910 --> 000:23:01.059
+Jack C: Yeah. So this is like a very bad version, or
+
+244
+000:23:01.630 --> 000:23:07.829
+Jack C: some of the ones I've drawn over the years. I really do my wireframes with a pad and pen.
+
+245
+000:23:08.100 --> 000:23:13.769
+Jack C: I have. Yeah, I did a bit of that, but wanted to get it in.
+
+246
+000:23:13.840 --> 000:23:19.039
+and so that will just be the wireframe at the start. Is that what you'd imagine the slides.
+
+247
+000:23:20.050 --> 000:23:23.869
+Jack C: once it's done to look like, just to give them like an insight.
+
+248
+000:23:25.130 --> 000:23:26.000
+Jack C: So
+
+249
+000:23:26.400 --> 000:23:42.629
+Jack C: I would maybe finish flesh this out so that because you're showing it as something with some of these visualizations in like average return, right? We're gonna need an example, one fit for each of them. Otherwise it's going to look very strange, even if it is completely.
+
+250
+000:23:43.990 --> 000:23:45.530
+Jack C: you know, made up.
+
+251
+000:23:45.790 --> 000:23:56.469
+Jack C: Yeah, yeah. So just have. Like, I was just gonna have a section for each of the 8 Apis with like the headline and a visualization, and then show what how they would be able to filter.
+
+252
+000:23:59.380 --> 000:24:03.229
+Jack C: I would maybe, instead of where you've got dates for. Oh.
+
+253
+000:24:03.360 --> 000:24:14.009
+Jack C: I didn't realize you touched in it, so I would probably show here just the date filter part, not show the the breakdown. But say.
+
+254
+000:24:14.040 --> 000:24:31.230
+Jack C: when you're walking them through that they if I was talking to a stakeholder, imagine, and I'm explaining this. And I think that my filter is really gonna help you out. It's gonna make your life easier. I'm like, so we've got our 8 kpis and the brilliant thing about the dashboard is that you can choose whether to have data from all time
+
+255
+000:24:31.350 --> 000:24:43.739
+Jack C: filtered to the previous year, 6 months, 3 months, or, in fact, any custom range that your heart desires saving you, having to ask anybody in the analytics team to do this for you, making it quicker.
+
+256
+000:24:44.850 --> 000:24:51.099
+Jack C: Do you see that? How I'm explaining the functionality of the dashboard. But I'm also telling them why the
+
+257
+000:24:51.180 --> 000:24:52.750
+Jack C: I've built it for them.
+
+258
+000:24:53.120 --> 000:25:05.039
+Jack C: because I haven't shown that information on the wireframe. It's we tease with the Wi-fi so that we can then sell the story
+
+259
+000:25:05.500 --> 000:25:07.970
+Jack C: when we're going through it.
+
+260
+000:25:09.190 --> 000:25:12.060
+Jack C: But yeah, in terms of having your your 8
+
+261
+000:25:12.220 --> 000:25:16.690
+Jack C: kpis. It's just making sure that they look at that and go. I could use that.
+
+262
+000:25:18.240 --> 000:25:22.289
+Jack C: But I'd have you build that. Take the time to build it. Thank you very much. Yes, please.
+
+263
+000:25:23.980 --> 000:25:28.149
+Jack C: So onto the slides, which I can see we've got. So we've got
+
+264
+000:25:28.580 --> 000:25:29.550
+Jack C: headline
+
+265
+000:25:30.110 --> 000:25:38.639
+Jack C: return rate increases with X category. I love seeing how people haven't kind of gone through and added things as we're talking, because
+
+266
+000:25:38.710 --> 000:25:41.139
+Jack C: we've only been on a call 64 min
+
+267
+000:25:41.310 --> 000:25:46.760
+Jack C: right, and you've already found ways to improve your slides right?
+
+268
+000:25:46.940 --> 000:25:48.480
+Steph Wright: It's that easy.
+
+269
+000:25:48.780 --> 000:25:55.760
+Steph Wright: We just talk about stuff. And this is why I want you to share your wireframes next week with each other
+
+270
+000:25:55.830 --> 000:26:05.589
+Steph Wright: without us having to tell you to. I want you to go to people in other teams and like, could you take a look at my slide deck and let me know what you think like. Have us stuck to the rules.
+
+271
+000:26:05.850 --> 000:26:08.040
+Steph Wright: and if you all do that for each other
+
+272
+000:26:08.680 --> 000:26:09.690
+Steph Wright: lovely.
+
+273
+000:26:09.940 --> 000:26:11.770
+Steph Wright: Now, someone
+
+274
+000:26:12.350 --> 000:26:27.249
+Steph Wright: I don't know who who put this in the the little size something. I don't know if this is there to flatten me, or if you just like, the fact that I tend to do this on my slides. But sometimes, having a subheader
+
+275
+000:26:27.410 --> 000:26:28.540
+Jack C: is useful
+
+276
+000:26:29.160 --> 000:26:33.019
+Jack C: in what you're doing, where you're explaining what these Kpis are.
+
+277
+000:26:33.420 --> 000:26:44.789
+Jack C: That is a very good way to get that information in there, concisely, and in a small bit. But you gotta make sure that whatever you put in that subtitle
+
+278
+000:26:44.910 --> 000:26:48.599
+Jack C: is visually much shorter
+
+279
+000:26:49.050 --> 000:26:53.180
+Jack C: than what is in your headline, because your headline is more important.
+
+280
+000:26:53.410 --> 000:27:01.349
+Jack C: and if you have your text running out after it. People will ignore the headline, and they'll look down at the thing that they think has more detail
+
+281
+000:27:01.840 --> 000:27:07.389
+Jack C: in so subtiters can be useful or sub headings, they can
+
+282
+000:27:07.960 --> 000:27:09.160
+Jack C: cause a problem.
+
+283
+000:27:09.260 --> 000:27:12.089
+Jack C: You've just got to think about them as you're going
+
+284
+000:27:12.440 --> 000:27:25.770
+Jack C: nice. Yeah, I'll look. I know it was just that it was something that you like in how many slides to define it. So put it there as a note, and then also to add X-axis diagonal labels to grind.
+
+285
+000:27:26.390 --> 000:27:28.480
+Jack C: And I think
+
+286
+000:27:29.090 --> 000:27:31.909
+Jack C: this this might be the first really clear
+
+287
+000:27:32.120 --> 000:27:35.369
+Jack C: one that is trying to follow the pyramid principle.
+
+288
+000:27:36.190 --> 000:27:38.709
+Jack C: Tell me the most important thing. First
+
+289
+000:27:38.980 --> 000:27:42.900
+Jack C: recommendation. Then you're showing me.
+
+290
+000:27:43.020 --> 000:27:44.819
+Jack C: This is why I think that.
+
+291
+000:27:45.530 --> 000:27:48.079
+Jack C: Do we remember doing the Pyramid principle? Anyone
+
+292
+000:27:49.830 --> 000:28:01.450
+Jack C: start with the most important thing when you've got the people's attention. So headline recommendation. Now, if I'm still got your attention, I'll take you through. Why, I think that
+
+293
+000:28:02.460 --> 000:28:06.660
+Jack C: be prepared in real life. You will lose some stakeholders
+
+294
+000:28:06.800 --> 000:28:15.299
+Jack C: after the first first thing after the headline, because they will whip their phone out to check if they've got any emails because they are that high powered.
+
+295
+000:28:16.290 --> 000:28:19.400
+Jack C: So we've really got to lean into this idea
+
+296
+000:28:19.420 --> 000:28:21.279
+Jack C: of key takeaways
+
+297
+000:28:22.610 --> 000:28:23.830
+Jack C: and
+
+298
+000:28:23.890 --> 000:28:34.470
+Jack C: on the graph just quickly add a question made it like the return data is like that when I lost. Look, there isn't any return data
+
+299
+000:28:34.480 --> 000:28:36.750
+Jack C: from like the 30 first of
+
+300
+000:28:36.920 --> 000:28:51.700
+Jack C: December onwards. So it's like, if I feel like it's pulling down the December 2021, and there's 0 for January. Do you think I should just exclude them from the graph? Because it looks like return rate is like drastically drop in.
+
+301
+000:28:51.920 --> 000:28:55.180
+Jack C: Yes, because of the stakeholders that you're presenting to.
+
+302
+000:28:55.290 --> 000:29:02.830
+Jack C: because they are high-level stakeholders. You really don't want to have to waste their time explaining to them why you have a value of 0
+
+303
+000:29:03.190 --> 000:29:07.119
+Jack C: when actually it's not, it's just not enough. Time has elapsed
+
+304
+000:29:07.140 --> 000:29:09.380
+Jack C: for those things that were bought
+
+305
+000:29:09.390 --> 000:29:11.230
+Jack C: to have been returned
+
+306
+000:29:11.400 --> 000:29:14.439
+Jack C: and stuck into the dataset.
+
+307
+000:29:14.750 --> 000:29:19.419
+Jack C: If you were presenting this to the head of data and analytics.
+
+308
+000:29:20.760 --> 000:29:22.680
+Jack C: I might leave it in
+
+309
+000:29:22.860 --> 000:29:24.839
+Jack C: and say what I just said.
+
+310
+000:29:24.980 --> 000:29:29.249
+Jack C: but more concisely and better practised, because.
+
+311
+000:29:29.630 --> 000:29:34.740
+Jack C: data person is more than happy to have something qualified, and they would
+
+312
+000:29:34.950 --> 000:29:37.399
+Steph Wright: prefer that than having it left out.
+
+313
+000:29:38.340 --> 000:29:42.230
+Steph Wright: whereas stake big stakeholders. Just show me what actually matters.
+
+314
+000:29:43.260 --> 000:29:46.589
+Jack C: But, Jack, Jack, quick, quick question to you. Okay.
+
+315
+000:29:47.140 --> 000:29:52.040
+Marcelo Lecocq: who do you think will be interested in an organization to saying
+
+316
+000:29:52.480 --> 000:29:57.580
+Marcelo Lecocq: that chart, although the fact that after, let's say 2 months.
+
+317
+000:29:57.640 --> 000:30:00.480
+Marcelo Lecocq: we still don't have data on this Kpi.
+
+318
+000:30:03.560 --> 000:30:04.710
+he
+
+319
+000:30:06.930 --> 000:30:10.100
+Jack C: who would be interested in the graph as a as it is at the moment.
+
+320
+000:30:10.200 --> 000:30:15.610
+Marcelo Lecocq: Yeah. So you you telling me the reason why you don't 0 because you don't have data for those months.
+
+321
+000:30:16.290 --> 000:30:18.390
+Jack C: And yeah, it's lapsed.
+
+322
+000:30:18.640 --> 000:30:28.380
+Jack C: Right? So think about with the hand of the business guy. Say. is it? Okay, on the modern, on a digital company?
+
+323
+000:30:28.780 --> 000:30:33.930
+Jack C: The I don't. I don't have returns data after 2 months of the event.
+
+324
+000:30:35.850 --> 000:30:39.969
+Marcelo Lecocq: How digital am I? Okay? So that could be an historian itself.
+
+325
+000:30:40.680 --> 000:30:42.600
+Yeah, like a data
+
+326
+000:30:42.670 --> 000:30:43.780
+Jack C: architect
+
+327
+000:30:44.060 --> 000:30:54.240
+Jack C: or something along the along those lines. Like, you know, you know, process is broken. Tagline is a data capture for returns process broken.
+
+328
+000:30:54.760 --> 000:30:59.170
+Jack C: But yeah, okay, that's
+
+329
+000:31:00.820 --> 000:31:03.239
+Jack C: from where you think
+
+330
+000:31:03.700 --> 000:31:05.300
+Jack C: spending your time
+
+331
+000:31:05.380 --> 000:31:11.000
+Jack C: is gonna improve things. If we're looking at actually tracking returns
+
+332
+000:31:11.280 --> 000:31:14.269
+Jack C: the return rate, so that we can have
+
+333
+000:31:14.570 --> 000:31:20.569
+Steph Wright: like tactics to deal with it. If something does drop or go up dramatically.
+
+334
+000:31:20.950 --> 000:31:21.730
+Steph Wright: then
+
+335
+000:31:22.030 --> 000:31:28.519
+Steph Wright: what Marcelo has brought up that lack of data becomes the most pressing thing that would stop us
+
+336
+000:31:28.530 --> 000:31:30.079
+Steph Wright: doing what we need to do.
+
+337
+000:31:30.580 --> 000:31:35.100
+Steph Wright: So we would need to get that fixed, and that would need to be included in our recommendation.
+
+338
+000:31:35.270 --> 000:31:38.140
+Steph Wright: And you've got it here. The returns data is missing.
+
+339
+000:31:38.270 --> 000:31:43.379
+Steph Wright: It's just you then framing that as part of your recommendation. So
+
+340
+000:31:43.610 --> 000:31:45.100
+Steph Wright: we need to fix that, please.
+
+341
+000:31:47.950 --> 000:32:08.719
+Jack C: And then just one sorry. One final thing, you know, like, when you say state assumptions, you see, there's a line at the very bottom. That just is that is that how I think I was just? I'm not quite sure. Still, how to like where or how to state an assumption. Is it like at the bottom of the slide? Is it in the footnotes like?
+
+342
+000:32:11.000 --> 000:32:12.020
+Jack C: So
+
+343
+000:32:12.290 --> 000:32:20.950
+Jack C: it's a tricky one, I would say, if it's a massive assumption, some something like returns. And let's say that affected every single kpi
+
+344
+000:32:21.050 --> 000:32:24.530
+Jack C: that you're looking at, then I would be stating it front and centre.
+
+345
+000:32:24.600 --> 000:32:34.519
+Steph Wright: like we are lacking X months of data. This is going to affect the recommendations I can give you, because I can only speak to the end of 2021,
+
+346
+000:32:35.550 --> 000:32:40.330
+Steph Wright: whereas if it's something that only affects this one Kpi.
+
+347
+000:32:40.890 --> 000:32:43.670
+Steph Wright: then I would probably verbally state it here
+
+348
+000:32:43.680 --> 000:32:52.519
+Steph Wright: and stick it in the speaker notes or an appendix something like that. If there's lots to those going on, I wouldn't usually give up valuable
+
+349
+000:32:53.190 --> 000:32:54.780
+Steph Wright: screen real estate
+
+350
+000:32:55.390 --> 000:32:57.680
+Steph Wright: to to have something like that.
+
+351
+000:33:00.650 --> 000:33:02.049
+and I thank you
+
+352
+000:33:02.860 --> 000:33:10.309
+Steph Wright: alright. So sorry. My screen has darkened, which means in the recording, things will be dark. I just need to try and get my title. Cable. 2 secs.
+
+353
+000:33:11.590 --> 000:33:18.389
+Steph Wright: Going on to this one, Marcella. If you have any thoughts, please do while I try and find my charger.
+
+354
+000:33:18.420 --> 000:33:21.729
+Marcelo Lecocq: Okay? So it's not a dark. Nope.
+
+355
+000:33:25.830 --> 000:33:26.520
+hmm.
+
+356
+000:33:30.070 --> 000:33:33.280
+Steph Wright: Nope, wait. Yes, we're plugged. Okay.
+
+357
+000:33:33.680 --> 000:33:34.800
+Steph Wright: lovely.
+
+358
+000:33:36.960 --> 000:33:40.140
+Steph Wright: So again, this looks like a dashboard wireframe.
+
+359
+000:33:40.460 --> 000:33:47.290
+Eli Azlin: Yeah, so that's when. That's why I was the question in the beginning, because I was just confused and what we're gonna do but
+
+360
+000:33:47.540 --> 000:33:50.660
+Eli Azlin: I think for this one because it doesn't.
+
+361
+000:33:51.330 --> 000:33:58.449
+Eli Azlin: I don't think it's one of our most important kpis. because the way we were doing it initially was we were, gonna look at all 8.
+
+362
+000:33:58.840 --> 000:34:03.949
+Eli Azlin: But after discussing a little bit, this one, the recommendation isn't as
+
+363
+000:34:04.340 --> 000:34:09.330
+Eli Azlin: impactful as the other ones. So we might just keep it in the wireframe.
+
+364
+000:34:09.380 --> 000:34:11.050
+Eli Azlin: But, like team orange
+
+365
+000:34:11.389 --> 000:34:14.870
+Eli Azlin: and then do it. Based on that. I think.
+
+366
+000:34:16.400 --> 000:34:21.230
+Steph Wright: And I like the way that you're thinking about that. It's yes. You spent some time looking at it.
+
+367
+000:34:21.340 --> 000:34:26.189
+Steph Wright: But it's you know what this is, not what my stakeholders need to hear about.
+
+368
+000:34:26.270 --> 000:34:28.600
+Steph Wright: because it's not what's gonna drive
+
+369
+000:34:28.820 --> 000:34:32.139
+Steph Wright: profit. And if that's the result of your investigation.
+
+370
+000:34:32.560 --> 000:34:33.630
+Steph Wright: Lovely.
+
+371
+000:34:34.389 --> 000:34:38.200
+Steph Wright: I mean, I would be looking at that. My brain is going.
+
+372
+000:34:38.260 --> 000:34:46.539
+Steph Wright: What's going on with shoes and bags right? If that's massive profit, like massive compared to everything else.
+
+373
+000:34:47.270 --> 000:34:48.800
+Steph Wright: I would question.
+
+374
+000:34:49.820 --> 000:34:52.419
+Steph Wright: is there something we could do to sell more of those?
+
+375
+000:34:53.969 --> 000:35:06.429
+Steph Wright: And that that's where the we get into kind of forecasting as analysts. It's like, if we change this thing. And that meant we change so this many more shoes, we would make this much more money.
+
+376
+000:35:06.710 --> 000:35:09.170
+Steph Wright: and that is where Pilot
+
+377
+000:35:09.330 --> 000:35:16.170
+Steph Wright: come from is where A B tests come from. It's you. Seeing this graph and going, there is something.
+
+378
+000:35:16.210 --> 000:35:22.569
+Steph Wright: something that I should be able to exploit here because you don't see differences in behaviour like that
+
+379
+000:35:22.880 --> 000:35:24.160
+Steph Wright: very often.
+
+380
+000:35:25.200 --> 000:35:29.460
+Steph Wright: And this is real data. So this is real differences in profit.
+
+381
+000:35:30.230 --> 000:35:41.489
+Marcelo Lecocq: II can see, Eli. I can see a really good story here that I haven't. I'm not. I'm not as well as informed with the data. So you guys are, you've been working the in this data for 7 weeks. Now, if I'm not mistaken.
+
+382
+000:35:42.210 --> 000:35:48.119
+Marcelo Lecocq: the brand, look at the brand there. So prism is its own label, right?
+
+383
+000:35:48.230 --> 000:35:55.350
+Marcelo Lecocq: You got 2 types of things unlabel and others, or like brand brand brands and unlabel.
+
+384
+000:35:55.730 --> 000:36:02.779
+Marcelo Lecocq: and I don't know what the profit margins are for each one. If you went to that to me, that'll be a really good insight that I
+
+385
+000:36:02.810 --> 000:36:04.900
+Marcelo Lecocq: I didn't have before.
+
+386
+000:36:05.020 --> 000:36:20.469
+Marcelo Lecocq: whether profit, what sort of levels of profits or profitability you you having for just 2 types of products, your own brand and your on your all the brands, and then, of course, in the dashboard you can provide. I wanna go into the next level right
+
+387
+000:36:20.580 --> 000:36:29.909
+Marcelo Lecocq: in looking at my own brands. So I think you you it has to go, lex. Perhaps, as you mentioned, not as important as other kpis as your top 3.
+
+388
+000:36:30.260 --> 000:36:32.820
+Marcelo Lecocq: But II see this as a potential
+
+389
+000:36:33.120 --> 000:36:37.679
+Marcelo Lecocq: thing I haven't heard before. And and if you think about, you know, like someone like
+
+390
+000:36:37.790 --> 000:36:48.850
+Marcelo Lecocq: a Tk. Max, no, no, which companies in the UK. Offer their own label, but also offer other brands. What's direct which one
+
+391
+000:36:49.400 --> 000:37:05.829
+Steph Wright: sports direct? I'm pretty sure they do own Brian T-shirt socks, but they also do proper sport. I'll be honest with you. Not a sports.
+
+392
+000:37:08.680 --> 000:37:21.259
+Marcelo Lecocq: There you go, and and it would be really interesting for for the overall audience like your own. II would assume your own label is far more profitable than others. But wh what happens if it's not?
+
+393
+000:37:21.690 --> 000:37:26.070
+Steph Wright: Yeah, then then we've got to fix our own label.
+
+394
+000:37:26.180 --> 000:37:28.719
+Steph Wright: Suddenly things get great again.
+
+395
+000:37:28.750 --> 000:37:39.500
+Marcelo Lecocq: You see, I started with the hypothesis that selling your own value brand is more profitable than selling others. Can you check the hypothesis? And if not, what we need a remedial brand plan.
+
+396
+000:37:41.710 --> 000:37:43.469
+Steph Wright: you're thinking like an analyst
+
+397
+000:37:45.110 --> 000:37:48.770
+Steph Wright: does. So I have noticed
+
+398
+000:37:48.940 --> 000:37:58.780
+Eli Azlin: the time, but it also noticed there aren't any slides from indigo, so I can spend there. I'm so sorry we've gone for 90 min. I really do hope it was a useful only 90 min. Yeah.
+
+399
+000:38:00.030 --> 000:38:01.340
+Steph Wright: Okay, so
+
+400
+000:38:01.840 --> 000:38:10.400
+Eli Azlin: kind of similarly, with this set out as the previous slide. So I need to change it. So it kind of matches, jokes a bit more.
+
+401
+000:38:11.700 --> 000:38:12.640
+Steph Wright: So
+
+402
+000:38:13.130 --> 000:38:15.240
+Steph Wright: both. And yeah. But it's
+
+403
+000:38:15.410 --> 000:38:16.220
+Steph Wright: here.
+
+404
+000:38:16.330 --> 000:38:27.450
+Steph Wright: You've got what you're talking about. We have a recommendation. We just need to that up. So it's got the the insights and the recommendations in that headline.
+
+405
+000:38:31.720 --> 000:38:52.240
+Steph Wright: And then we've got this. Yes, bear remind you all having data added, like daily. So you might have a slightly longer line for 2022 could be worth going back to the thing that you've built screenshot because it would be easier to explain behavior when you don't have just
+
+406
+000:38:52.420 --> 000:38:54.469
+Eli Azlin: single dog. But you do have the qualifier.
+
+407
+000:38:54.790 --> 000:38:56.749
+Eli Azlin: Okay? Cool. Yeah.
+
+408
+000:38:58.310 --> 000:39:02.640
+Marcelo Lecocq: And quick question. I think I had a comment on the presentation. I've seen this before.
+
+409
+000:39:02.780 --> 000:39:04.570
+Eli Azlin: Umhm. Now, this
+
+410
+000:39:05.400 --> 000:39:06.420
+Marcelo Lecocq: I
+
+411
+000:39:06.510 --> 000:39:18.729
+Marcelo Lecocq: this is not really a time series is just it doesn't tell me over time. I I'll be looking for a time series that starts in early 2020, and finishes in 2,022.
+
+412
+000:39:18.830 --> 000:39:21.990
+Marcelo Lecocq: But here you've got 2 years in the same
+
+413
+000:39:22.180 --> 000:39:23.420
+Marcelo Lecocq: lowering. You see.
+
+414
+000:39:23.640 --> 000:39:32.459
+Eli Azlin: I wasn't sure whether it's better to, just because I wanted to compare how the change in monthly uses
+
+415
+000:39:32.560 --> 000:39:34.349
+Eli Azlin: kind of occurs throughout the year.
+
+416
+000:39:34.410 --> 000:40:03.309
+Eli Azlin: For both 2020 and 2021. Cause then, you see the whole seasonal data. I feel like it's easier to see. But then your mind does work very similar. The comparison between the difference between years could be you could use something else, a different vision use as it was a proper time series. Okay.
+
+417
+000:40:03.860 --> 000:40:06.880
+Marcelo Lecocq: that that would be my recommendation, and
+
+418
+000:40:07.380 --> 000:40:14.900
+Marcelo Lecocq: also also for everybody that is observing this conversation right now. Companies hate seasonality.
+
+419
+000:40:15.790 --> 000:40:37.739
+Marcelo Lecocq: every company, hey? Seasonality. So the word in the street is to smooth demand. Okay? Because predictable traffic. Some troughs send your share value all over the place, so they don't enjoy this pix and troughs. Okay, I want you to think, perhaps, as a business person, what can you do to suggest strategies to smooth that
+
+420
+000:40:37.860 --> 000:40:43.999
+Marcelo Lecocq: it is great to find that, hey? December? Yes, normal is Christmas course. We sell more. Okay? But what can
+
+421
+000:40:44.090 --> 000:40:48.220
+Marcelo Lecocq: with that in mind perspective? How can you help
+
+422
+000:40:48.510 --> 000:40:50.410
+Marcelo Lecocq: to deal with the troughs.
+
+423
+000:40:51.690 --> 000:40:56.779
+Eli Azlin: Okay?  So what I would say is that this graph.
+
+424
+000:40:57.270 --> 000:40:59.779
+Steph Wright: this is really useful, Eda.
+
+425
+000:41:00.040 --> 000:41:15.600
+Steph Wright: because it allowed you to look at this and very, very quickly see that the seasonality of those 2 years is basically the same, except maybe for December. You've got slightly different behavior across the 2 of them.
+
+426
+000:41:16.330 --> 000:41:20.929
+Steph Wright: This is for you. This is what stays on your computer or in your cloud.
+
+427
+000:41:21.030 --> 000:41:33.220
+Steph Wright: Cool? Yeah. And then the time series that runs the full 2 years. That's what makes it into the slide. It's the the difference between stuff we do for what's called visual inference.
+
+428
+000:41:33.600 --> 000:41:36.850
+Steph Wright: and then stuff we do to visualize
+
+429
+000:41:36.940 --> 000:41:45.010
+Steph Wright: the trends that we found with the visual inference. the inference one. You can do whatever the hell you like, as long as
+
+430
+000:41:45.130 --> 000:41:48.800
+Steph Wright: it makes sense to you, and then the rest of it is.
+
+431
+000:41:48.870 --> 000:41:53.670
+Steph Wright: what are the expectations of other people? Because it's
+
+432
+000:41:54.360 --> 000:41:57.099
+Steph Wright: it's kind of like a bit like being a teacher.
+
+433
+000:41:57.310 --> 000:42:09.490
+Steph Wright: The the responsibility is on you to make sure they take away from it what they need to take away from it. So if they're expecting a very long time series rather than this, which
+
+434
+000:42:09.740 --> 000:42:12.020
+Steph Wright: again, intuitively, I prefer.
+
+435
+000:42:12.540 --> 000:42:20.529
+Steph Wright: But that's because I find seasonality fascinating, and I don't want to smooth it out. I just want to understand it because people are weird.
+
+436
+000:42:21.670 --> 000:42:25.539
+Eli Azlin: So I don't work in retail anymore. It's why I work with people.
+
+437
+000:42:26.170 --> 000:42:27.399
+Eli Azlin: Okay, thank you.
+
+438
+000:42:28.660 --> 000:42:30.830
+Steph Wright: And so here we've got.
+
+439
+000:42:31.460 --> 000:42:34.280
+Steph Wright: I'm assuming the order is intentional
+
+440
+000:42:35.000 --> 000:42:35.960
+Steph Wright: with
+
+441
+000:42:36.510 --> 000:42:38.490
+Steph Wright: these conversion rates
+
+442
+000:42:38.590 --> 000:42:44.820
+Steph Wright: going down. You could get away with that in a small table. Potentially.
+
+443
+000:42:45.500 --> 000:42:50.149
+Steph Wright: I would mainly because you've written out average of conversion rate 3 times.
+
+444
+000:42:50.600 --> 000:43:00.439
+Steph Wright: and I'm of the opinion. If something happens 3 times, then it is generalisable. Usually it's write some goddamn code stuff to do this thing that you keep repeating.
+
+445
+000:43:00.610 --> 000:43:03.790
+Steph Wright: So if you had a table that was average conversion rate.
+
+446
+000:43:04.260 --> 000:43:05.220
+Steph Wright: Yeah.
+
+447
+000:43:05.840 --> 000:43:10.869
+Steph Wright: like that, that's very easy. You get that same comparative effect
+
+448
+000:43:11.090 --> 000:43:18.610
+Steph Wright: what! You've saved a lot of space on screen that either make your visual bigger. Give yourself a subtitle, add an insight.
+
+449
+000:43:19.010 --> 000:43:21.330
+Steph Wright: That sort of thing. Now
+
+450
+000:43:22.720 --> 000:43:25.380
+Steph Wright: I know you're still working in hypotheticals.
+
+451
+000:43:25.590 --> 000:43:31.130
+Steph Wright: This is the sort of thing that we're very, very used to getting as a recommendation.
+
+452
+000:43:31.260 --> 000:43:32.780
+Steph Wright: Do an A B test.
+
+453
+000:43:33.450 --> 000:43:36.330
+Steph Wright: Guess what the question's going to be.
+
+454
+000:43:36.550 --> 000:43:40.630
+Steph Wright: If that's the level of detail that comes in the headline.
+
+455
+000:43:41.110 --> 000:43:45.089
+Steph Wright: Anyone, what am I going to ask if I am your stakeholder.
+
+456
+000:43:49.140 --> 000:43:57.900
+Jack C: What's the a test? Do you want me to do? What am I signing off giving you money
+
+457
+000:43:58.080 --> 000:43:59.889
+Steph Wright: to go and investigate.
+
+458
+000:44:00.660 --> 000:44:09.309
+Steph Wright: So it's a B test on insert variable here to prevent another
+
+459
+000:44:09.560 --> 000:44:36.760
+Marcelo Lecocq: crash. And mostly it's one for you getting rid of a crash. We are smoothing a time series. II think I think this 60% there, the title that's that's a headline right? There's a crash coming. You're telling them the trend is coming. It's gonna repeat itself. Panic, panic button. And what am I gonna do to prevent it? First of all, where do we think there is a problem in the conversion rate. Wh. What is the conversion rate? To begin with.
+
+460
+000:44:38.090 --> 000:44:39.960
+Marcelo Lecocq: clicks to sail?
+
+461
+000:44:42.580 --> 000:44:47.429
+Marcelo Lecocq: What is the conversion? Kind of someone answer this. What is the conversion rate. Definition.
+
+462
+000:44:47.560 --> 000:44:49.840
+Marisa Sharma: Think purchases to visit
+
+463
+000:44:49.890 --> 000:44:52.800
+Marisa Sharma:  Viewed items.
+
+464
+000:44:53.940 --> 000:45:01.520
+Marcelo Lecocq: viewed items versus to to sales conversion. Okay. Now, you saw from the actual slide slide slide 18.
+
+465
+000:45:01.850 --> 000:45:03.860
+Marcelo Lecocq: If you look at slide 18.
+
+466
+000:45:04.930 --> 000:45:24.560
+Marcelo Lecocq: Okay, conversion. We're talking about pick throughs. Right? So people are viewing our stuff they get. They, we're getting. We're getting users to go to the website. So that's not really changing, increasing dramatically or or declining, so must be something else in your operation that is causing your your conversion rate to go low.
+
+467
+000:45:24.800 --> 000:45:28.100
+Marcelo Lecocq: It's not the views we got, more people viewing
+
+468
+000:45:28.250 --> 000:45:32.259
+Marcelo Lecocq: what is causing your conversion rate to go down.
+
+469
+000:45:32.970 --> 000:45:34.799
+Marcelo Lecocq: Do you have an hypothesis.
+
+470
+000:45:36.030 --> 000:45:38.629
+What? What is the hypothesis of the Merton rate?
+
+471
+000:45:41.360 --> 000:45:48.849
+Marisa Sharma: I wasn't sure I was trying to figure out, but maybe something to do with the increase in maximum on the other graph below
+
+472
+000:45:49.120 --> 000:45:52.880
+Marcelo Lecocq: increasing Meta. So you're getting more viewers.
+
+473
+000:45:53.460 --> 000:45:55.390
+Marcelo Lecocq: But they're not alerting.
+
+474
+000:45:55.510 --> 000:45:56.530
+Okay?
+
+475
+000:45:56.860 --> 000:46:02.000
+Marcelo Lecocq: So one of the hypotheses like mete is providing crap customers.
+
+476
+000:46:02.210 --> 000:46:12.359
+Marcelo Lecocq: Okay? Assuming that all your operations are very good, you don't have any issues with simply, Meta is capturing, perhaps the wrong audience for you.
+
+477
+000:46:12.820 --> 000:46:23.769
+Marcelo Lecocq: Ok, that'll be my my safest guess, unless you go on operational challenge, that you cannot get that user through the entire life cycle and sell them something.
+
+478
+000:46:24.180 --> 000:46:34.170
+Marcelo Lecocq: So here, you blaming meta quality ability to capture good quality customers, or you're blaming yourself somewhere in your own operations that you're failing.
+
+479
+000:46:34.360 --> 000:46:36.020
+I don't know which one is which. But
+
+480
+000:46:36.160 --> 000:46:46.750
+Marcelo Lecocq: but I think you got the idea, don't you? And depending, depending on which one d. Which one you select, depend depends on what your advice on the AV testing is going to be
+
+481
+000:46:51.880 --> 000:47:16.200
+Marcelo Lecocq: being dug into like, I didn't think we were going to get into proper analytics today, and I've missed it like I'm genuinely surprised how much I'll be joining, looking through this and sorry sorry about that potential. Everything is there. It just needs to be put in a package that people receive a well, that's all. Everything is there.
+
+482
+000:47:17.550 --> 000:47:19.710
+Steph Wright: I'm going to stop sharing my screen now.
+
+483
+000:47:21.100 --> 000:47:23.410
+Steph Wright: but it's do you remember.
+
+484
+000:47:24.230 --> 000:47:27.719
+Steph Wright: early early in acquire.
+
+485
+000:47:28.350 --> 000:47:34.150
+Steph Wright: and I said to you, the very best thing that you could do with data was to play with it.
+
+486
+000:47:36.560 --> 000:47:37.720
+Steph Wright: This is why
+
+487
+000:47:38.380 --> 000:47:57.410
+Steph Wright: it's not just to teach you what's there and the small things that you can do with it. It's if you see something, and you're like, what the hell did that happen? And you dig and you join tables, and you calculate some aggregates, and you do some other things. You will potentially find out that matters rubbish
+
+488
+000:47:57.560 --> 000:47:59.420
+Steph Wright: bringing customers.
+
+489
+000:47:59.550 --> 000:48:02.710
+Steph Wright: even though they're probably the most expensive
+
+490
+000:48:02.910 --> 000:48:04.959
+Steph Wright: of those ad platforms.
+
+491
+000:48:05.990 --> 000:48:19.750
+Steph Wright: So, depending on which team you are working in, you might pass that on to another team to work out because it falls under them. They're in the marketing lot. It might be that it's your team that should be dealing with any dig in
+
+492
+000:48:19.780 --> 000:48:21.210
+Steph Wright: a little bit more.
+
+493
+000:48:21.750 --> 000:48:30.509
+Steph Wright: But this is why, as we go through the the projects will not necessarily get more complicated. But you'll need to really choose
+
+494
+000:48:30.860 --> 000:48:32.550
+Steph Wright: what to focus on
+
+495
+000:48:33.590 --> 000:48:37.860
+Steph Wright: in terms of. There are many things we could try.
+
+496
+000:48:37.960 --> 000:48:46.199
+Steph Wright: Because, like I said, this is real data. It hasn't been manipulated to have a specific trend that happens at a specific date.
+
+497
+000:48:46.400 --> 000:48:49.249
+Steph Wright: It's these are real people's buying habits.
+
+498
+000:48:50.300 --> 000:48:54.240
+Steph Wright: So it's we just play. We go. Let's give it a shot.
+
+499
+000:48:54.700 --> 000:48:56.270
+Steph Wright: See what happens.
+
+500
+000:48:56.620 --> 000:49:00.910
+Steph Wright: And as long as it is easy for your stakeholder to go.
+
+501
+000:49:01.200 --> 000:49:06.980
+Steph Wright: Oh, this is a problem. Oh, you have a solution. and this is what
+
+502
+000:49:07.990 --> 000:49:10.630
+Steph Wright: here is money. Go do the things
+
+503
+000:49:10.680 --> 000:49:16.139
+Steph Wright: right? That's the response you'll get, because your senior stakeholders want you to solve their problems.
+
+504
+000:49:16.180 --> 000:49:18.049
+Steph Wright: They do not want to have to solve
+
+505
+000:49:18.070 --> 000:49:21.669
+Steph Wright: their problems. So you need to show you understand the problem.
+
+506
+000:49:22.900 --> 000:49:24.659
+Steph Wright: You've gone through the data
+
+507
+000:49:25.160 --> 000:49:30.060
+Steph Wright: and you have a I cannot stress this enough a specific
+
+508
+000:49:30.470 --> 000:49:41.340
+Steph Wright: recommendation. It is better to have a specific one that you could say based on my investigation. It will cause an increase in the profit margin of naught. Point 1.
+
+509
+000:49:42.210 --> 000:49:45.930
+Steph Wright: Then to go. Let's increase profit. Margin
+
+510
+000:49:48.480 --> 000:49:52.119
+Steph Wright: right? Increase it by 10%. Sounds better.
+
+511
+000:49:53.070 --> 000:49:55.899
+Steph Wright: But it doesn't show that I've got any idea how I'm going to get there.
+
+512
+000:49:56.970 --> 000:50:00.899
+Steph Wright: whereas if I've got a almost guaranteed 0 point 1 increase
+
+513
+000:50:01.700 --> 000:50:07.879
+Steph Wright: that will win the day in real life the thing that we can actually foresee happening.
+
+514
+000:50:08.060 --> 000:50:11.480
+Steph Wright: And as stakeholders, it's your slides
+
+515
+000:50:11.890 --> 000:50:15.380
+Steph Wright: that allows to understand that story.
+
+516
+000:50:15.670 --> 000:50:22.570
+Steph Wright: And that's why we need them to be clear. We need them to be clean, to have these specific bits of information in.
+
+517
+000:50:22.680 --> 000:50:27.780
+Steph Wright: Because then when we ask you questions. they're gonna be interesting questions that you want to answer
+
+518
+000:50:27.990 --> 000:50:31.640
+Steph Wright: rather than filling in the gaps that you're like.
+
+519
+000:50:31.760 --> 000:50:37.269
+Steph Wright: Oh, we've done really badly, you haven't. But that's what your brain is. Gonna tell you on the day.
+
+520
+000:50:39.030 --> 000:50:43.400
+Steph Wright: so start them early. Number one, tilt tip
+
+521
+000:50:43.870 --> 000:50:49.010
+Steph Wright: number 2, get them reviewed early by other people.
+
+522
+000:50:49.710 --> 000:50:51.949
+Steph Wright: and set yourself some rules.
+
+523
+000:50:52.620 --> 000:50:59.629
+Steph Wright: but must be on every slide. and then, if you can take each of those off
+
+524
+000:51:00.010 --> 000:51:04.630
+Steph Wright: and you haven't ticked any of the, do not put these on a slide for pain of death
+
+525
+000:51:05.370 --> 000:51:06.580
+Steph Wright: pie charts.
+
+526
+000:51:08.240 --> 000:51:11.150
+Steph Wright: Then you're fine and you will get there.
+
+527
+000:51:12.310 --> 000:51:13.150
+Steph Wright: I've just.
+
+528
+000:51:13.420 --> 000:51:18.539
+Steph Wright: dean that we are. We are at Part 3 can. Can I just
+
+529
+000:51:18.550 --> 000:51:22.899
+Steph Wright: get? Because I'm trying to work out whether I should run one of these next week
+
+530
+000:51:24.000 --> 000:51:35.500
+Steph Wright: on a scale of one to 10, and I'm not gonna be upset if it's a low number, right? One is status. This wasn't useful. Okay, we could have done with the hour and a half to just work on our sides.
+
+531
+000:51:35.660 --> 000:51:39.270
+Steph Wright: 10 is actually, I'm going to completely rethink
+
+532
+000:51:39.490 --> 000:51:41.170
+Steph Wright: what it was we were doing
+
+533
+000:51:41.360 --> 000:51:44.770
+Steph Wright: roughly whereabouts. And are we kicking about with this sort of thing.
+
+534
+000:51:49.560 --> 000:51:53.040
+Steph Wright: Okay. 5 outputs. So
+
+535
+000:51:53.710 --> 000:52:01.860
+Steph Wright: I will post the the recording of this into the slack channel when I do. If there's any suggestions
+
+536
+000:52:02.290 --> 000:52:05.729
+Steph Wright: for how this could be more useful.
+
+537
+000:52:05.990 --> 000:52:07.749
+Steph Wright: Just throw them in there
+
+538
+000:52:08.520 --> 000:52:12.900
+Steph Wright: right, please don't be brutal. Remember, constructive feedback is kind.
+
+539
+000:52:13.790 --> 000:52:18.040
+Steph Wright: But if there are things that didn't work, if there are things that would work better.
+
+540
+000:52:18.800 --> 000:52:20.150
+Steph Wright: let us know, and then
+
+541
+000:52:20.190 --> 000:52:23.619
+Steph Wright: we can kind of see what to do moving forward.
+
+542
+000:52:24.540 --> 000:52:29.039
+Steph Wright:  Any quick questions before I have to toddle off.
+
+543
+000:52:29.750 --> 000:52:34.430
+Steph Wright: because I'll be honest with you. I have now been pretty much sat still for 3 h.
+
+544
+000:52:35.610 --> 000:52:51.270
+Marcelo Lecocq: Everybody, if you couldn't vote to put post your scores on the on, on the meeting chat. What? What, Steph asked you is super relevant for us to to get your feedback. What was the mean then
+
+545
+000:52:51.360 --> 000:53:12.700
+Marcelo Lecocq: the the mean, I'd say, was probably 7, which will piss James off no end, cause he doesn't know. I can see. I can see it's coming biasing the the mean. It's really important. On Friday you're very likely to have another little 10 min survey for feedback about this week, and every week from now on. Alright.
+
+546
+000:53:12.700 --> 000:53:31.540
+Marcelo Lecocq: this is this is, gonna be for us to enhance the material. We deliver the Co. The connections with you guys, and for you, and opportunity to tell us what works for you or doesn't work for you. Okay, and this is, gonna be helpful for yourself for the remain remainder of the course, but also for future generations of Co over students. So really appreciate your feedback on Friday. Yeah.
+
+547
+000:53:33.050 --> 000:53:33.960
+Steph Wright: I'm gonna
+
+548
+000:53:34.070 --> 000:53:35.739
+Steph Wright: stop recording before I own this.
 
